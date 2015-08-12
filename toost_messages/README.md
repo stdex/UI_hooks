@@ -1,1 +1,1 @@
-![]//i.snag.gy/QFxfC.jpg)
+![](http://i.snag.gy/QFxfC.jpg)
