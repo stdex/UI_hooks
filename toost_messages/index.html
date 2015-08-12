@@ -1,0 +1,136 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<style>
+	
+body{
+	margin:0 auto;
+	font-size:62.5%;
+	height:100%
+}
+
+.book-buble {
+	margin-left: -5px;
+    width: 280px;
+    height: auto;
+    text-align: left;
+    padding: 5px;
+    left: -1000px;
+    opacity: 1;
+    background: #678194
+}
+.book-buble .book-buble-inner {
+    padding: 3px 30px 5px 5px
+}
+.book-buble .closer {
+    background: transparent url(book-buble-close.png) no-repeat 0 0;
+    cursor: pointer;
+    display: block;
+    height: 13px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    width: 13px;
+    margin-top: -7px
+}
+.book-buble .closer:hover {
+    opacity: .8
+}
+
+#right{
+	float:none;
+	margin:0;
+	width:100%
+}
+
+.plusone-buble {
+
+    background: #375f78;
+    color: #fff;
+    display: block;
+    font: 14px/19px Arial, Helvetica, sans-serif;
+    height: 40px;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    /*width: 100px;*/
+    padding: 2px 0 0;
+    z-index: 5000;
+    overflow: hidden;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px
+}
+
+</style>
+
+<script>
+function bookBuble(n, m, k) {
+    var a = $("#right"),
+        c = a.offset(),
+        h = $(".book-buble"),
+        j = $('<div class="plusone-buble book-buble"></div>').appendTo(document.body).html('<div class="book-buble-inner">' + n + "</div>");
+    $("<span class='closer'></span>").prependTo(j).bind("click", function() {
+        j.remove()
+    });
+    var g = c.left + a.outerWidth() - j.outerWidth() - 10,
+        f = j.outerHeight() + 2 + 10;
+    h.animate({
+        top: "-=" + f
+    }, 1000);
+    j.css("opacity", 0).css({
+        top: m,
+        left: g
+    }).animate({
+        top: "-=" + f,
+        opacity: "1"
+    }, 1000, function() {
+		
+        setTimeout(function() {
+            j.animate({
+                top: "-=50",
+                opacity: "0"
+            }, 1000, function() {
+                j.remove()
+            })
+        }, k || 5000)
+        
+    })
+}
+
+$(function(){
+	
+	var t = (window.innerHeight || $(window).height()) + $(window).scrollTop();
+	bookBuble('Этот товар заказан  31 минуту назад. Адрес доставки: Челябинск.', t);
+	setTimeout(function () {bookBuble('<div>Сейчас еще 14 человек просматривают этот товар</div>', t)}, 2500);
+	/*
+	$('#product-specs').bind('mouseover', function () {
+		var t = (window.innerHeight || $(window).height()) + $(window).scrollTop();
+		bookBuble('Этот товар заказан  31 минуту назад. Адрес доставки: Челябинск.', t);
+		setTimeout(function () {bookBuble('<div>Сейчас еще 14 человек просматривают этот товар</div>', t)}, 2500);
+		$(this).unbind('mouseover');
+	});
+	*/
+});
+
+
+</script>
+	
+</head>
+
+<body>
+
+<div id="right"></div>
+
+<!--
+<div id="product-specs">
+</div>
+-->
+
+</body>
+</html>
