@@ -1,0 +1,92 @@
+#price .red-butt
+	{
+	font-size:11px;
+	padding:4px 8px;
+	display:inline-block;
+	}
+#price .cat_title,
+#price .price_val,
+#price .parse_place
+	{
+	font-weight:bold;
+	}
+#price .subcat, #text-bg .cat-sel #price .subcat td
+	{
+	text-align:left;
+	background:#fff;
+	font:normal 17px DINProRegular;
+	color:#d63c33;
+	}
+#price .subcat + tr td
+	{
+	background:#f9f9f9;
+	}
+#price .sel_place
+	{
+	display:inline-block;
+	color:#fff;
+	font:10px Tahoma;
+	text-decoration:none;
+	background:#008eb8;
+	padding:2px 3px;
+	margin-bottom:3px;
+	}
+#price .sel_place.sel
+	{
+	background:#d63c33;
+	}
+#price .sel_place.clearrow
+	{
+	margin-right:5px;
+	}
+#text-bg .cat-sel #price .parse_place
+	{
+	max-width:200px;
+	text-align:left;
+	}
+#text-bg .cat-sel #price .clear_sel td
+	{
+	background:#fff;
+	text-align:left;
+	font:normal 17px DINProRegular;
+	}
+#price .clear_sel div
+	{
+	text-align:center;
+	color:#7b7b7b;
+	font:10px Tahoma;
+	}
+#price .clear_sel p
+	{
+	margin: 20px 0px;
+	}
+#price #tickets_sum span,
+#price #tickets_sum em
+	{
+	font:17px DINProMedium;
+	color:#d53c32;
+	}
+.border-bottom
+	{
+	display:none;
+	}
+.back_button
+	{
+	margin:0 0 10px 30px;
+	padding:3px 10px;
+	border-radius:4px;
+	display:inline-block;
+	box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.35);
+	vertical-align:middle;
+	background:#4478a8 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAVCAIAAAAIMBNTAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAEZJREFUeNpisNh+kenWp29M7779ZWL+/5+J6d9/JgaG/0x//oLY/5gYgfy/fyH0PyCfASr+DyjGAFILpJlh8kA6XFkAIMAAq7Mt2WAVD60AAAAASUVORK5CYII=) repeat-x;
+	color:#fff;
+	font:12px Arial;
+	}
+.back_button:hover
+	{
+	cursor:pointer;
+	}
+
+.team-logo {
+    height: 100px;
+}

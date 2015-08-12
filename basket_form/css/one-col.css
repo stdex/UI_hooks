@@ -1,0 +1,388 @@
+#price
+	{
+	width:100%;
+	}
+#price .loader
+	{
+	padding-top: 100px;
+	color: #0087b7;
+	text-align: center;
+	display: inline-block;
+	transition: width .5s;
+	}
+
+#price .loader span {
+	font-size: 1.1em;
+}
+
+#price .loader span + span {
+	font-size: 1em;
+	display: block;
+	color: #000;
+	opacity: 0.6;
+	margin-top: 5px;
+}
+
+#cont .width #center 
+	{
+	width: auto;
+	display: block;
+	}
+#cont .width #center h1, #cont .width #center .h1
+	{
+	display:inline-block;
+	background: transparent;
+	padding: 0px 0px 10px;
+	margin: 0px;
+	}
+#cont .width #center
+#event-head h1,
+#cont .width #center
+#event-head .h1
+	{
+	padding: 10px 0px;
+	}
+#cont .width #center h1.white,
+#cont .width #center .h1.white
+	{
+	padding: 10px;
+	background: #fff;
+	}
+#event-head 
+	{
+	margin-top: 25px;
+	height: 140px;
+	width: 705px;
+	}
+#event-head .date
+	{
+	color: #d63c33;
+	font: 18px DINProMedium;
+	text-transform: uppercase;
+	}
+#event-head, #path, #path li,
+#event-logo div, #event-logo p,
+#text-bg .left, #text-bg .right,
+#text-bg .right strong,
+#text-bg .cat-sel > div,
+#text-bg .cat-sel:after,
+#text-bg .cat-sel .title div
+	{
+	display: inline-block;
+	}
+#text-bg .left, #text-bg .right,
+#text-bg .cat-sel > div
+	{
+	vertical-align: top;
+	}
+#text-bg .left
+	{
+	width: 525px;
+	}
+#text-bg .right
+	{
+	width: 350px;
+	}
+#event-logo div, #event-logo p
+	{
+	vertical-align: middle;
+	font: 14px DINProRegular;
+	color: #afafaf;
+	}
+#event-logo p
+	{
+	margin: 0px 10px 25px;
+	}
+#event-logo span
+	{
+	display: block;
+	text-align: center;
+	}
+#event-logo img
+	{
+	margin-bottom: 10px;
+	}
+#event-logo a, #text-bg a
+	{
+	color: #cd332b;
+	font: bold 13px Tahoma;
+	}
+#path
+	{
+	list-style: none;
+	}
+#path li
+	{
+	padding-left: 20px;
+	}
+#event-logo
+	{
+	top: 0px;
+	right: 0px;
+	}
+#path li, #event-head, #cont .width #center 
+	{
+	position: relative;
+	}
+#path li a
+	{
+	color: #cd332b;
+	font: 13px Tahoma;
+	}
+#path li:before, #event-logo
+	{
+	position: absolute;
+	}
+#text-bg .cat-sel:after, #path li:before
+	{
+	content: '';
+	}
+#text-bg .cat-sel:after
+	{
+	width: 100%;
+	height: 0px;
+	}
+#path li:before
+	{
+	background: url(../img/path.gif) no-repeat 50% 50%;
+	width: 20px;
+	height: 18px;
+	display: block;
+	left: 0px;
+	}
+.scheme img
+	{
+	width:100%;
+	}
+#text-bg
+	{
+	background: #fff;
+	padding: 35px;
+	color: #2f3a40;
+	font: 13px Tahoma;
+	}
+#text-bg h1,
+#text-bg .h1
+	{
+	padding-top: 0px;
+	color: #da4237;
+	}
+#text-bg h2,
+#text-bg .subheader
+	{
+	margin-bottom:20px;
+	color: #505050;
+	font: normal 18px DINProRegular;
+	}
+#text-bg .right strong
+	{
+	margin-bottom: 10px;
+	}
+#text-bg .js
+	{
+	text-decoration: none;
+	font-weight: normal;
+	border-bottom: 1px dashed #da4237;
+	}
+#text-bg hr
+	{
+	display: block;
+	border: 0px;
+	height: 1px;
+	padding: 0px;
+	background: #f1f1f1;
+	margin: 30px 0px;
+	}
+#text-bg .cat-sel
+	{
+	margin-right:22px;
+	margin-bottom:20px;
+	text-align: justify;
+	}
+#text-bg .cat-sel h2,
+#text-bg .cat-sel .subheader
+	{
+	text-align: left;
+	}
+#text-bg .cat-sel table
+	{
+	border-collapse: collapse;
+	width: 100%;
+	font: normal 12px Tahoma;
+	}
+#text-bg .cat-sel th, #text-cat table th
+	{
+	text-align:center;
+	border-top:2px solid #f0f0f0;
+	font-weight: normal;
+	color: #010508;
+	padding: 5px;
+	}
+#text-bg .cat-sel #text_cat
+	{
+	width: 100px;
+	}
+#text-bg .cat-sel td,
+#text-cat table td
+	{
+	text-align:center;
+	background: #f9f9f9;
+	border-bottom: 2px solid #fff;
+	padding: 8px;
+	}
+#text-bg table .sel_row td,
+#text-cat table .sel_row td {
+	background: #d9d9d9;
+}
+#text-bg .cat-sel td:first-child, #text-bg .cat-sel th:first-child
+	{
+	text-align:left;
+	}
+#text-bg .cat-sel td:last-child
+	{
+	text-align:right;
+	}
+#text-bg  table .count
+	{
+	width:100px;
+	}
+#text-bg tbody:nth-child(odd) td
+	{
+	background: #f0f0f0;
+	}
+#text-bg .cat-sel input
+	{
+	width: 25px;
+	border: 1px solid #d0d1d1;
+	font: 11px Tahoma;
+	padding: 3px 5px;
+	vertical-align: middle;
+}
+#text-bg .cat-sel .count, #text-bg .cat-sel .price, 
+#text-bg .cat-sel .in_stock
+	{
+	text-align: center;
+	}
+#text-bg .cat-sel td.price
+	{
+	font-weight: bold;
+	color: #565656;
+	}
+#text-bg .cat-sel .title
+	{
+	vertical-align:top;
+	position:relative;
+	text-align:left;
+	color: #000;
+	/*width:140px;*/
+	width:200px;
+	padding-left:23px;
+	}
+#text-bg .right .cat-sel strong
+	{ 
+	margin:0;
+	}
+#text-bg .cat-sel .title div
+	{
+	display:none;
+	position:absolute;
+	left:5px;
+	top:5px;
+	width: 12px;
+	height: 12px;
+	border-radius: 15px;
+	}
+#text-bg .cat-sel .count img
+	{
+	margin: 0px 5px;
+	width: 15px;
+	vertical-align: middle;
+}
+#sum
+	{
+	text-align: center;
+	}
+#sum span
+	{
+	font: 25px DINProMedium;
+	}
+#sum strong
+	{
+	font-weight: normal;
+	color: #d0362d;
+	}
+.red-butt:hover
+	{
+	cursor: pointer;
+	}
+.red-butt
+	{
+	background: #c92f28 url(../img/red-butt-bg.png) repeat-x 100%;
+	color: #fff;
+	padding: 3px 5px 3px 0px;
+	border-radius: 3px;
+	text-transform: uppercase;
+	font: 13px DINProMedium;
+	text-shadow: -1px -1px 1px #ac3029;
+	}
+.red-butt.big, #price .red-butt.big
+	{
+	background:#da4036 url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAgCAIAAABch4VNAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAE1JREFUeNpMjEEOgEAMAilv9eSvNfsBPZq0yFpjPA2dQLGvC6+xMc+DAVAISvVlKKkgUfJdtG5mvV3Zwb1mmRJ6/+T2OfnrYP6GbgEGAJ6NMWPAGgF1AAAAAElFTkSuQmCC) repeat-x;
+	padding:8px 20px;
+	box-shadow:-1px 1px 2px rgba(0,0,0,.35);
+	font-size:14px;
+	}
+.red-butt img
+	{
+	vertical-align: maiddle;
+	margin: 0px 5px;
+	}
+#a_list
+	{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	color: #fff;
+	font: 12px Tahoma;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px 1px #000;
+	margin: -50px 0px 0px -20px;
+	background: #dc453a;
+	border: 0px;
+	display: none;
+	padding: 5px;
+	}
+
+#text-cat
+	{
+	margin: 20px 0px;
+	text-align: center;
+	}
+#text_cat_count
+	{
+	width: 40px;
+	margin: 0px 5px;
+	}
+#text-cat table
+	{
+	display: inline-block;
+	text-align: left;
+	}
+#text-cat table td
+	{
+	
+	}
+#text-cat table th
+	{
+	
+	}
+
+	#price .loader img.arrows {
+		width: 64px !important;
+		height: 64px !important;
+	}
+
+.title p+p {
+  font-size: 8pt;
+  color: grey;
+}

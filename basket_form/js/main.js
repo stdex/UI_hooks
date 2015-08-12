@@ -1,0 +1,57 @@
+$(document).on('ready', function() {
+
+    if ($('.cat-sel').length && !$('.cat-sel #text-cat').length) {
+        $('.cat-sel').count_control()
+        $('#add-cart').cart({
+            submit: 1,
+            'no-resum': true,
+            submiter_call: function(e, cahe, cart) {
+
+                var out = {
+                        validation: true,
+                        call: false
+                    },
+                    sum = 0;
+                $('.cat-sel input[type="text"]').each(function() {
+                    sum += +this.value;
+                });
+
+                if (!sum) {
+                    alert('Р’С‹Р±РµСЂРёС‚Рµ Р±РёР»РµС‚С‹!');
+                } else {
+                    out.call = true;
+                }
+                return out
+            }
+        });
+    }
+    if ($('#text-cat').length) {
+        $('#text-cat').count_control();
+        $('#add-cart').cart({
+            submit: 1,
+            submiter_call: function(e, cahe, cart) {
+                var out = {
+                        validation: false,
+                        call: false
+                    },
+                    cat_title = cahe.find('#text_cat').val(),
+                    cat_count = cahe.find('#text_cat_count').val();
+
+                if (cat_title && (cat_count | 0)) {
+                    cart.insert(cahe.find('#event_no').val() + "'-'" + encodeURI(cat_title), cat_count);
+                    out.call = true;
+                    return out;
+                }
+
+                errrors = [];
+                if (!cat_title)
+                    errrors.push('Р’РІРµРґРёС‚Рµ РєР°С‚РµРіРѕСЂРёСЋ!');
+                if (!(cat_count | 0))
+                    errrors.push('Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ!');
+                alert(errrors.join('\n'));
+                return out
+            }
+        });
+    }
+
+});
