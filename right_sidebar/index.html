@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<title></title>
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="menu_wrapper">
+
+	<header class="menu_header">
+
+	</header><!-- .menu_header-->
+
+	<main class="menu_content">
+		<div class="box" style="padding-bottom: 0; padding-right: 0;">
+			<span class="what fl_r">?</span>
+			<span class="name">Директор</span>
+			<div class="clear"></div>
+			Колчанов Павел Михайлович
+		</div>
+		<img src="images/per.png" />
+		<br />
+		<div class="uli">Список клиентов</div>
+		<div class="uli">Список сотрудников</div>
+		<div class="uli">Задания</div>
+		<div class="uli">Результаты мониторинга</div>
+		<div class="uli marker">Права пользователя</div>
+		<div class="uli">База городов</div>
+		<div class="uli">База регионов</div>
+		<div class="box" style="padding-top: 18px; padding-bottom: 10px;">
+			<div class="count fl_l">1</div>
+			<div class="count fl_l">2</div>
+			<div class="count fl_l">8</div>
+			<div class="count fl_l">8</div>
+			<div class="clear"></div>
+			<div class="mini">Городов в системе</div>
+		</div>
+		<div class="box" style="padding-top: 0;">
+			<div class="count fl_l">1</div>
+			<div class="count fl_l">0</div>
+			<div class="count fl_l">8</div>
+			<div class="count fl_l">8</div>
+			<div class="count fl_l">1</div>
+			<div class="count fl_l">6</div>
+			<div class="clear"></div>
+			<div class="mini">Проверено рекламных конструкций</div>
+		</div>
+		<div class="box" style="padding-top: 0; padding-bottom: 25px;">
+			<a href="#">Официальный сайт</a>
+			<br />
+			<a href="#">Контакты</a>
+			<br />
+			<a href="#">Наши лица</a>
+		</div>
+	</main><!-- .menu_content -->
+
+</div><!-- .menu_wrapper -->
+
+<footer class="menu_footer">
+	2003-2014 ©
+	<br />
+	ООО «Открытые витрины»
+	<br />
+	Все права защищены.
+</footer><!-- .menu_footer -->
+
+<script src="jquery-1.11.3.min.js"></script>
+
+<script>
+
+$('.uli').click(function(){
+  $('.uli').removeClass("marker");
+  $(this).addClass("marker");
+});
+
+</script>
+
+</body>
+</html>
