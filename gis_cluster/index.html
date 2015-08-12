@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Leaflet</title>
+	<meta charset="Windows-1251" />
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" href="./leaflet/leaflet.css" />
+	<style>
+	#loader {
+		display: none;
+		position: absolute;
+		top:0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background: url('./leaflet/images/loader.gif') center center no-repeat rgba(255,255,255,0.5);
+	}
+
+	.info_region {
+	    padding: 6px 8px;
+	    font: 14px/16px Arial, Helvetica, sans-serif;
+	    background: white;
+	    background: rgba(255,255,255,0.8);
+	    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+	    border-radius: 5px;
+	}
+	.info_region h4 {
+	    margin: 0 0 5px;
+	    color: #777;
+	}
+
+	</style>
+</head>
+<body>
+	<div id="map" style="width: 1900px; height: 900px"></div>
+	<div id="loader"></div>
+
+	<script src="./leaflet/leaflet.js"></script>
+	<script src="./leaflet/plugins/layerjson/leaflet-layerjson.js"></script>
+<!--
+	<link rel="stylesheet" href="./leaflet/plugins/markercluster/MarkerCluster.css" />
+	<link rel="stylesheet" href="./leaflet/plugins/markercluster/MarkerCluster.Default.css" />
+	<script src="./leaflet/plugins/markercluster/leaflet.markercluster-src.js"></script>
+-->
+	<link rel="stylesheet" href="./leaflet/plugins/regionbound/MarkerCluster.Default.css"/>
+	<link rel="stylesheet" href="./leaflet/plugins/regionbound/MarkerCluster.css"/>
+	<script src="./leaflet/plugins/regionbound/leaflet.markercluster-regionbound.min.js"></script>
+
+	<link rel="stylesheet" href="./leaflet/plugins/zoomdisplay/leaflet.zoomdisplay.css"/>
+	<script src="./leaflet/plugins/zoomdisplay/leaflet.zoomdisplay.js"></script>
+
+	<script type="text/javascript" src="./leaflet/plugins/pip/leaflet-pip.js"></script>
+	
+	<script type="text/javascript" src="ao.js"></script>
+	<script type="text/javascript" src="objects.js"></script>
+	
+	<script>
+		var map = L.map('map', {
+				zoom: 10,
+
+				center: new L.latLng([55.751244, 37.618423]),
+				layers: L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png')
+			}),
+			loader = L.DomUtil.get('loader');
+
+
+		var states = L.geoJson(statesData, {style: styleed, onEachFeature: onEachFeature});
+		map.addLayer(states);
+
+		var clusterOptions = {
+			showCoverageOnHover: false, 
+			maxClusterRadius: 400, // you can increase this, try 250px
+			addRegionToolTips: true,
+			disableClusteringAtZoom: 13
+		};
+
+		var clusterGroup = new L.MarkerClusterGroup(clusterOptions);
+
+		var results = "";
+		var atd = "";	
+
+		var objects_layer = L.geoJson(objects, {onEachFeature: onEachObjFeature, pointToLayer: function (feature, latlng) {
+					results = leafletPip.pointInLayer(latlng, states);
+					if(typeof results[0] != 'undefined') {
+						console.log(results[0].feature.properties.ABBREV);
+						atd = results[0].feature.properties.ABBREV;
+						//feature.properties.ABBREV = atd;
+					}
+					else {
+						console.log(feature);
+						atd = "";					
+					}
+					return L.marker(latlng, {regions: ["Europe", "Russia", "Moscow", atd, atd]});
+        				
+		}});
+		map.addLayer(clusterGroup);
+
+
+		    var info = L.control();
+
+		    info.onAdd = function (map) {
+			this._div = L.DomUtil.create('div', 'info_region');
+			this.update();
+			return this._div;
+		    };
+
+		    info.update = function (props) {
+
+			this._div.innerHTML = '<h4>ATD</h4>' +  (props ?
+			    '<b>' + props.ABBREV + '</b>'
+			    : '');
+		    };
+
+		    info.addTo(map);
+
+		map.on('zoomend', onZoomend);
+
+		 function onZoomend() {
+		    var currentZoom = map.getZoom();
+			//console.log(currentZoom);
+		 };
+
+	    function styleed(feature) {
+			/*
+			var color_fill = "";
+			switch (feature.properties.ABBREV) {
+			   case '':
+			       color = "#F9DF95";
+			       break
+			   case label2:
+			      statements2
+			      [break]
+			   ...
+			   case labelN:
+			      statementsN
+			      [break]
+			   default:
+			      statements_def
+			      [break]
+			}
+			*/
+
+		    return {
+			weight: 2,
+			opacity: 1,
+			color: '#999999',
+			dashArray: '3',
+			fillOpacity: 0.2,
+			fillColor: 'white'
+		    };
+	    }
+
+	    function resetHighlight(e) {
+		states.resetStyle(e.target);
+		info.update();
+	    }
+
+	    function zoomToFeature(e) {
+		map.fitBounds(e.target.getBounds());
+	    }
+
+	    function onEachObjFeature(feature, layer) {
+		clusterGroup.addLayer(layer);
+		layer.bindPopup('ATD: ' + feature.id);
+		//console.log(layer);
+	    }
+
+	    function onEachFeature(feature, layer) {
+		layer.on({
+		    mouseover: highlightFeature,
+		    mouseout: resetHighlight,
+		    click: zoomToFeature
+		});
+	    }
+
+	    function highlightFeature(e) {
+		    var layer = e.target;
+		    layer.setStyle({
+		        weight: 5,
+		        color: '#666',
+		        dashArray: '',
+		        fillOpacity: 0.7
+		    });
+			info.update(layer.feature.properties);
+	    }
+
+	</script>
+</body>
+</html>
+
