@@ -1,0 +1,663 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+<images>
+	<image num="093" title="Лайн белый цена" group="Лайн" color="Белый" />
+	<image num="335" title="Лайн 29 бежевый" group="Лайн" color="29 бежевый" />
+	<image num="336" title="Лайн 94 синий " group="Лайн" color="94 синий" />
+	<image num="092" title="Лайн абрикос" group="Лайн" color="Абрикос" />
+	<image num="094" title="Лайн голубой" group="Лайн" color="Голубой" />
+	<image num="095" title="Лайн желтый " group="Лайн" color="Желтый" />
+	<image num="096" title="Лайн кремовый " group="Лайн" color="Кремовый" />
+	<image num="097" title="Лайн розовый" group="Лайн" color="Розовый" />
+	<image num="098" title="Лайн салатовый " group="Лайн" color="Салатовый" />
+	<image num="099" title="Лайн серый цена " group="Лайн" color="Серый" />
+
+	<image num="109" title="Магнолия NEW белый " group="Магнолия New" color="NEW белый" />
+	<image num="110" title="Магнолия NEW голубой " group="Магнолия New" color="NEW голубой" />
+	<image num="111" title="Магнолия NEW желтый " group="Магнолия New" color="NEW желтый" />
+	<image num="112" title="Магнолия NEW персик " group="Магнолия New" color="NEW персик" />
+	<image num="113" title="Магнолия NEW розовый ." group="Магнолия New" color="NEW розовый" />
+	<image num="114" title="Магнолия NEW салатовый " group="Магнолия New" color="NEW салатовый" />
+	<image num="115" title="Магнолия NEW серый " group="Магнолия New" color="NEW серый" />
+
+	<image num="308" title="Дождь 1 белый " group="Дождь" color="1 белый" />
+	<image num="309" title="Дождь 3 желтый " group="Дождь" color="3 желтый" />
+	<image num="310" title="Дождь 4 персик " group="Дождь" color="4 персик" />
+	<image num="311" title="Дождь 10 голубой " group="Дождь" color="10 голубой" />
+	<image num="312" title="Дождь 27 салатовый " group="Дождь" color="27 салатовый" />
+
+	<image num="350" title="Милано 04 персик " group="Милано" color="04 персик" />
+	<image num="351" title="Милано 29 бежевый " group="Милано" color="29 бежевый" />
+	<image num="118" title="Милано белый " group="Милано" color="Белый" />
+	<image num="119" title="Милано голубой " group="Милано" color="Голубой" />
+	<image num="120" title="Милано кремовый " group="Милано" color="Кремовый" />
+	<image num="121" title="Милано салатовый " group="Милано" color="Салатовый" />
+	<image num="122" title="Милано серый " group="Милано" color="Серый" />
+
+	<image num="240" title="Фортуна белый " group="Фортуна" color="Белый" />
+	<image num="241" title="Фортуна голубая " group="Фортуна" color="Голубая" />
+	<image num="242" title="Фортуна жёлтый " group="Фортуна" color="Жёлтый" />
+	<image num="243" title="Фортуна розовая " group="Фортуна" color="Розовая" />
+	<image num="244" title="Фортуна салатовый " group="Фортуна" color="Салатовый" />
+	<image num="245" title="Фортуна серая " group="Фортуна" color="Серая" />
+
+	<image num="011" title="Асенас бежевый " group="Асенас" color="Бежевый" />
+	<image num="012" title="Асенас белый " group="Асенас" color="Белый" />
+	<image num="013" title="Асенас голубой " group="Асенас" color="Голубой" />
+	<image num="014" title="Асенас желтый " group="Асенас" color="Желтый" />
+	<image num="015" title="Асенас зеленый " group="Асенас" color="Зеленый" />
+	<image num="016" title="Асенас кремовый " group="Асенас" color="Кремовый" />
+	<image num="017" title="Асенас серый " group="Асенас" color="Серый" />
+
+	<image num="018" title="Бансай белый " group="Бансай" color="Белый" />
+	<image num="019" title="Бансай голубой " group="Бансай" color="Голубой" />
+	<image num="020" title="Бансай кремовый " group="Бансай" color="Кремовый" />
+	<image num="021" title="Бансай персиковый " group="Бансай" color="Персиковый" />
+	<image num="022" title="Бансай салатовый " group="Бансай" color="Салатовый" />
+	<image num="023" title="Бансай серый " group="Бансай" color="Серый" />
+
+	<image num="024" title="Билайн бежевый " group="Билайн" color="Бежевый" />
+	<image num="025" title="Билайн белый " group="Билайн" color="Белый" />
+	<image num="026" title="Билайн голубой  " group="Билайн" color="Голубой" />
+	<image num="027" title="Билайн желтый  " group="Билайн" color="Желтый" />
+	<image num="029" title="Билайн красный " group="Билайн" color="Красный" />
+	<image num="030" title="Билайн кремовый " group="Билайн" color="Кремовый" />
+	<image num="031" title="Билайн оранжевый " group="Билайн" color="Оранжевый" />
+	<image num="032" title="Билайн розовый " group="Билайн" color="Розовый" />
+	<image num="033" title="Билайн салатовый " group="Билайн" color="Салатовый" />
+	<image num="034" title="Билайн серый " group="Билайн" color="Серый" />
+	<image num="035" title="Билайн синий " group="Билайн" color="Синий" />
+	<image num="036" title="Билайн сиреневый " group="Билайн" color="Сиреневый" />
+	<image num="037" title="Билайн фиолетовый " group="Билайн" color="Фиолетовый" />
+
+	<image num="283" title="Блюз 10 голубой " group="Блюз" color="10 голубой" />
+	<image num="284" title="Блюз 10 серый  " group="Блюз" color="10 серый" />
+	<image num="285" title="Блюз 27 салатовый  " group="Блюз" color="27 салатовый" />
+	<image num="038" title="Блюз белый  " group="Блюз" color="Белый" />
+	<image num="039" title="Блюз кремовый  " group="Блюз" color="Кремовый" />
+
+	<image num="319" title="Ирис 22 слоновая кость " group="Ирис" color="22 слоновая кость" />
+	<image num="076" title="Ирис белый  " group="Ирис" color="Белый" />
+	<image num="077" title="Ирис бордо  " group="Ирис" color="Бордо" />
+	<image num="078" title="Ирис голубой  " group="Ирис" color="Голубой" />
+	<image num="079" title="Ирис жёлтый  " group="Ирис" color="Жёлтый" />
+	<image num="080" title="Ирис кремовый  " group="Ирис" color="Кремовый" />
+	<image num="081" title="Ирис персик  " group="Ирис" color="Персик" />
+	<image num="082" title="Ирис салатовый  " group="Ирис" color="Салатовый" />
+	<image num="083" title="Ирис серый  " group="Ирис" color="Серый" />
+	<image num="084" title="Ирис синий  " group="Ирис" color="Синий" />
+
+	<image num="337" title="Лето 01 белый  " group="Лето" color="01 белый" />
+	<image num="338" title="Лето 03 желтый  " group="Лето" color="03 желтый" />
+	<image num="339" title="Лето 05 светло-желтый  " group="Лето" color="05 светло-желтый" />
+	<image num="340" title="Лето 30 коричневый  " group="Лето" color="30 коричневый" />
+	<image num="341" title="Лето 33 розовый  " group="Лето" color="33 розовый" />
+	<image num="342" title="Лето 93 зелёный " group="Лето" color="93 зелёный" />
+
+	<image num="343" title="Маран 01 белый  " group="Маран" color="01 белый" />
+	<image num="344" title="Маран 01 голубой  " group="Маран" color="01 голубой" />
+	<image num="345" title="Маран 02 кремовый  " group="Маран" color="02 кремовый" />
+	<image num="346" title="Маран 03 желтый  " group="Маран" color="03 желтый" />
+	<image num="347" title="Маран 04 персик  " group="Маран" color="04 персик" />
+	<image num="348" title="Маран 27 салатовый  " group="Маран" color="27 салатовый" />
+	<image num="349" title="Маран 33 розовый  " group="Маран" color="33 розовый" />
+
+	<image num="128" title="Олимпик бежевый  " group="Олимпик" color="Бежевый" />
+	<image num="129" title="Олимпик белый  " group="Олимпик" color="Белый" />
+	<image num="130" title="Олимпик голубой  " group="Олимпик" color="Голубой" />
+	<image num="131" title="Олимпик кремовый  " group="Олимпик" color="Кремовый" />
+	<image num="358" title="Олимпик м 03 желтый " group="Олимпик" color="М 03 желтый" />
+	<image num="359" title="Олимпик м 94 синий  " group="Олимпик" color="М 94 синий" />
+	<image num="360" title="Олимпик м 96 розовый  " group="Олимпик" color="М 96 розовый" />
+	<image num="132" title="Олимпик салатовый  " group="Олимпик" color="Салатовый" />
+	<image num="133" title="Олимпик серый  " group="Олимпик" color="Серый" />
+
+	<image num="141" title="Полюс бежевый  " group="Полюс" color="Бежевый" />
+	<image num="142" title="Полюс белый  " group="Полюс" color="Белый" />
+	<image num="143" title="Полюс голубой  " group="Полюс" color="Голубой" />
+	<image num="144" title="Полюс желтый  " group="Полюс" color="Желтый" />
+	<image num="145" title="Полюс зеленый  " group="Полюс" color="Зеленый" />
+	<image num="146" title="Полюс красный  " group="Полюс" color="Красный" />
+	<image num="147" title="Полюс кремовый  " group="Полюс" color="Кремовый" />
+	<image num="148" title="Полюс оранжевый  " group="Полюс" color="Оранжевый" />
+	<image num="149" title="Полюс розовый  ." group="Полюс" color="Розовый" />
+	<image num="150" title="Полюс салатовый  " group="Полюс" color="Салатовый" />
+	<image num="151" title="Полюс синий  " group="Полюс" color="Синий" />
+	<image num="152" title="Полюс сиреневый  " group="Полюс" color="Сиреневый" />
+	<image num="153" title="Полюс фиолетовый  " group="Полюс" color="Фиолетовый" />
+
+	<image num="373" title="Радуга 01 белый  " group="Радуга" color="01 белый" />
+	<image num="374" title="Радуга 02 кремовый  " group="Радуга" color="02 кремовый" />
+	<image num="375" title="Радуга 04 персик  " group="Радуга" color="04 персик" />
+	<image num="376" title="Радуга 08 серый  " group="Радуга" color="08 серый" />
+	<image num="377" title="Радуга 10 голубой" group="Радуга" color="10 голубой" />
+	<image num="378" title="Радуга 19 бордо" group="Радуга" color="19 бордо" />
+	<image num="379" title="Радуга 27 салатовый" group="Радуга" color="27 салатовый" />
+	<image num="380" title="Радуга 33 розовый" group="Радуга" color="33 розовый" />
+	<image num="381" title="Радуга 91 желтый" group="Радуга" color="91 желтый" />
+	<image num="382" title="Радуга 94 синий" group="Радуга" color="94 синий" />
+
+	<image num="383" title="Регал 10 голубой" group="Регал" color="10 голубой" />
+	<image num="384" title="Регал 22 слоновая кость" group="Регал" color="22 слоновая кость" />
+	<image num="385" title="Регал 27 салатовый" group="Регал" color="27 салатовый" />
+	<image num="386" title="Регал 96 розовый " group="Регал" color="96 розовый" />
+	<image num="154" title="Регал бежевый цена " group="Регал" color="Бежевый" />
+	<image num="155" title="Регал белый  " group="Регал" color="Белый" />
+	<image num="156" title="Регал бордо " group="Регал" color="Бордо" />
+	<image num="157" title="Регал желтый " group="Регал" color="Желтый" />
+	<image num="158" title="Регал кремовый  " group="Регал" color="Кремовый" />
+	<image num="159" title="Регал малахит  " group="Регал" color="Малахит" />
+	<image num="160" title="Регал персик  " group="Регал" color="Персик" />
+	<image num="161" title="Регал серый  " group="Регал" color="Серый" />
+	<image num="162" title="Регал синий  " group="Регал" color="Синий" />
+
+	<image num="227" title="София 05 жёлтый  " group="София" color="05 жёлтый" />
+	<image num="228" title="София 01 белый  " group="София" color="01 белый" />
+	<image num="229" title="София 04 персик  " group="София" color="04 персик" />
+	<image num="230" title="София 03 розовый  " group="София" color="03 розовый" />
+	<image num="231" title="София 08 серый  " group="София" color="08 серый" />
+
+	<image num="287" title="Венеция 10 светло-голубой  " group="Венеция" color="10 светло-голубой" />
+	<image num="053" title="Венеция белый  " group="Венеция" color="Белый" />
+	<image num="054" title="Венеция желтый  " group="Венеция" color="Желтый" />
+	<image num="055" title="Венеция зеленый  " group="Венеция" color="Зеленый" />
+	<image num="056" title="Венеция кофейный  " group="Венеция" color="Кофейный" />
+	<image num="057" title="Венеция персиковый  " group="Венеция" color="Персиковый" />
+	<image num="058" title="Венеция розовый  " group="Венеция" color="Розовый" />
+	<image num="059" title="Венеция серый  " group="Венеция" color="Серый" />
+	<image num="060" title="Венеция сиреневый " group="Венеция" color="Сиреневый" />
+
+	<image num="sahara-10" title="Сахара 10  " group="Сахара" color="Сахара 10" />
+	<image num="sahara-01" title="Сахара 01  " group="Сахара" color="Сахара 01" />
+	<image num="sahara-02" title="Сахара 02  " group="Сахара" color="Сахара 02" />
+	<image num="sahara-03" title="Сахара 03  " group="Сахара" color="Сахара 03" />
+	<image num="sahara-04" title="Сахара 04  " group="Сахара" color="Сахара 04" />
+	<image num="sahara-29" title="Сахара 29  " group="Сахара" color="Сахара 29" />
+	<image num="sahara-27" title="Сахара 27  " group="Сахара" color="Сахара 27" />
+	<image num="sahara-42" title="Сахара 42  " group="Сахара" color="Сахара 42" />
+
+	<image num="404" title="Эдем 02 кремовый  " group="Эдем" color="02 кремовый" />
+	<image num="405" title="Эдем 03 желтый  " group="Эдем" color="03 желтый" />
+	<image num="406" title="Эдем 10 голубой" group="Эдем" color="10 голубой" />
+	<image num="407" title="Эдем 29 бежевый" group="Эдем" color="29 бежевый" />
+	<image num="408" title="Эдем 93 зелёный" group="Эдем" color="93 зелёный" />
+
+	<image num="268" title="Айс 02 кремовый" group="Айс" color="02 кремовый" />
+	<image num="269" title="Айс 03 жёлтый" group="Айс" color="03 жёлтый" />
+	<image num="270" title="Айс 08 серый" group="Айс" color="08 серый" />
+	<image num="271" title="Айс 10 голубой" group="Айс" color="10 голубой" />
+	<image num="272" title="Айс 19 бордовый" group="Айс" color="19 бордовый" />
+	<image num="273" title="Айс 27 салатовый" group="Айс" color="27 салатовый" />
+	<image num="274" title="Айс 29 бежевый" group="Айс" color="29 бежевый" />
+	<image num="275" title="Айс 93 зелёный" group="Айс" color="93 зелёный" />
+	<image num="276" title="Айс 95 оранжевый" group="Айс" color="95 оранжевый" />
+
+	<image num="313" title="Идальго 8 серый" group="Идальго" color="8 серый" />
+	<image num="314" title="Идальго 10 голубой" group="Идальго" color="10 голубой" />
+	<image num="315" title="Идальго 22 кремовый" group="Идальго" color="22 кремовый" />
+	<image num="316" title="Идальго 27 салатовый" group="Идальго" color="27 салатовый" />
+	<image num="317" title="Идальго 29 бежевый" group="Идальго" color="29 бежевый" />
+	<image num="318" title="Идальго 30 коричневый" group="Идальго" color="30 коричневый" />
+
+	<image num="respect-28" title="Респект 28 " group="Респект" color="28" />
+	<image num="respect-22" title="Респект 22 " group="Респект" color="2" />
+	<image num="respect-04" title="Респект 04 " group="Респект" color="04" />
+	<image num="respect-03" title="Респект 03 " group="Респект" color="03" />
+	<image num="respect-02" title="Респект 02 " group="Респект" color="02" />
+	<image num="respect-01" title="Респект 01 " group="Респект" color="01" />
+	<image num="respect-26" title="Респект 26 " group="Респект" color="26" />
+	<image num="respect-07" title="Респект 07 " group="Респект" color="07" />
+
+	<image num="288" title="Венеция ВО 01 белый" group="Венеция" color="ВО 01 белый " />
+	<image num="289" title="Венеция ВО 05 желтый" group="Венеция" color="ВО 05 желтый" />
+
+	<image num="320" title="Карнавал 66" group="Карнавал" color="66" />
+	<image num="321" title="Карнавал 191" group="Карнавал" color="191" />
+	<image num="322" title="Карнавал 192" group="Карнавал" color="192" />
+	<image num="323" title="Карнавал 194" group="Карнавал" color="194" />
+	<image num="324" title="Карнавал 201" group="Карнавал" color="201" />
+	<image num="325" title="Карнавал 202" group="Карнавал" color="202" />
+
+	<image num="326" title="Кения 1 белый" group="Кения" color="1 белый" />
+	<image num="327" title="Кения 2 кремовый" group="Кения" color="2 кремовый" />
+	<image num="328" title="Кения 3 жёлтый" group="Кения" color="3 жёлтый" />
+	<image num="329" title="Кения 04 персик" group="Кения" color="04 персик" />
+	<image num="330" title="Кения 27 салатовый" group="Кения" color="27 салатовый" />
+	<image num="331" title="Кения 29 бежевый" group="Кения" color="29 бежевый" />
+	<image num="332" title="Кения 33 розовый" group="Кения" color="33 розовый" />
+	<image num="333" title="Кения 94 синий" group="Кения" color="94 синий" />
+	<image num="334" title="Кения 97 фиолетовый " group="Кения" color="97 фиолетовый" />
+
+	<image num="290" title="Венеция ВО Gзолото " group="Венеция" color="ВО Gзолото" />
+	<image num="061" title="Венеция ВО бронза " group="Венеция" color="ВО бронза" />
+	<image num="064" title="Венеция ВО серебро " group="Венеция" color="ВО серебро" />
+
+	<image num="065" title="Венеция СС бежевый " group="Венеция" color="СС бежевый" />
+	<image num="066" title="Венеция СС голубой " group="Венеция" color="СС голубой" />
+	<image num="067" title="Венеция СС малахит " group="Венеция" color="СС малахит" />
+	<image num="068" title="Венеция СС салатовый" group="Венеция" color="СС салатовый" />
+	<image num="069" title="Венеция СС синий " group="Венеция" color="СС синий" />
+
+	<image num="venecia-S-10" title="Венеция металлик, S-10" group="Венеция" color="S-10" />
+	<image num="venecia-S-01" title="Венеция металлик, S-01" group="Венеция" color="S-01" />
+	<image num="venecia-G-10" title="Венеция металлик, G-10" group="Венеция" color="G-10" />
+	<image num="venecia-G-01" title="Венеция металлик, G-01" group="Венеция" color="G-01" />
+	<image num="venecia-G-05" title="Венеция металлик, G-01" group="Венеция" color="G-05" />
+	<image num="venecia-G-19" title="Венеция металлик, G-19" group="Венеция" color="G-19" />
+
+	<image num="394" title="Техно ВО 22 слоновая кость" group="Техно" color="ВО 22 слоновая кость" />
+	<image num="396" title="Техно ВО 29 бежевый " group="Техно" color="ВО 29 бежевый" />
+	<image num="395" title="Техно ВО 901 серебро " group="Техно" color="ВО 901 серебро" />	
+
+	<image num="279" title="Баунти 800 " group="Баунти" color="800" />
+	<image num="280" title="Баунти 801 " group="Баунти" color="801" />
+	<image num="281" title="Баунти 802 " group="Баунти" color="802" />
+	<image num="282" title="Баунти 803 " group="Баунти" color="803" />
+
+	<image num="085" title="Кассиопея зелёный " group="Кассиопея" color="Зелёный" />
+	<image num="086" title="Кассиопея песочный  " group="Кассиопея" color="Песочный" />
+	<image num="087" title="Кассиопея салатовый " group="Кассиопея" color="Салатовый" />
+	<image num="088" title="Кассиопея светло-сиреневый " group="Кассиопея" color="Светло-сиреневый" />
+
+	<image num="219" title="Сириус желтый " group="Сириус" color="Желтый" />
+	<image num="220" title="Сириус кремовый " group="Сириус" color="Кремовый" />
+	<image num="221" title="Сириус салатовый" group="Сириус" color="Салатовый" />
+
+	<image num="shanhai-822" title="Шанхай 822." group="Шанхай" color="822" />
+	<image num="shanhai-825" title="Шанхай 825" group="Шанхай" color="825" />
+	<image num="shanhai-036" title="Шанхай 036" group="Шанхай" color="036" />
+	<image num="shanhai-039" title="Шанхай 039" group="Шанхай" color="039" />
+	<image num="shanhai-031" title="Шанхай 031" group="Шанхай" color="031" />
+
+	<image num="256" title="Шампань бежевый" group="Шампань" color="Бежевый" />
+	<image num="257" title="Шампань жёлтый" group="Шампань" color="Жёлтый" />
+	<image num="258" title="Шампань коричневый" group="Шампань" color="Коричневый" />
+	<image num="259" title="Шампань светло-серый" group="Шампань" color="Светло-серый" />
+	<image num="260" title="Шампань серый" group="Шампань" color="Серый" />
+
+	<image num="249" title="Челси 767 " group="Челси" color="767" />
+	<image num="250" title="Челси 768  " group="Челси" color="768" />
+	<image num="251" title="Челси 5816  " group="Челси" color="5816" />
+	<image num="252" title="Челси 6922  " group="Челси" color="6922" />
+	<image num="253" title="Челси 9690  " group="Челси" color="9690" />
+	<image num="254" title="Челси 9873  " group="Челси" color="9873" />
+	<image num="255" title="Челси 9975 " group="Челси" color="9975" />
+
+	<image num="lika-03-w" title="Лика NEW 03 белая" group="Лика" color="03 белая" />
+	<image num="lika-03-b" title="Лика NEW 03, бежевая  " group="Лика" color="03 бежевая" />
+	<image num="lika-14-w" title="Лика NEW 14, белая " group="Лика" color="14 белая" />
+	<image num="lika-14-b" title="Лика NEW 14, бежевая  " group="Лика" color="14 бежевая" />
+
+	<image num="213" title="Сидней Е201 " group="Сидней" color="Е201" />
+	<image num="214" title="Сидней Е204  " group="Сидней" color="Е204" />
+	<image num="215" title="Сидней желтый  " group="Сидней" color="Желтый Е302" />
+	<image num="216" title="Сидней песочный  " group="Сидней" color="Песочный" />
+	<image num="217" title="Сидней С701  " group="Сидней" color="С701" />
+	<image num="218" title="Сидней С712  " group="Сидней" color="С712" />
+
+	<image num="skrin-016" title="Скрин 016  ." group="Скрин" color="016" />
+	<image num="224" title="Скрин 13  " group="Скрин" color="13" />
+	<image num="225" title="Скрин 14  " group="Скрин" color="14" />
+	<image num="226" title="Скрин 16  " group="Скрин" color="16" />
+	<image num="skrin-913" title="Скрин 913  " group="Скрин" color="913" />
+	<image num="skrin-911" title="Скрин 911   " group="Скрин" color="911" />
+
+	<image num="232" title="Стенфорд 25 голубой  " group="Стенфорд" color="25 голубой" />
+	<image num="233" title="Стенфорд 27 салатовый  ." group="Стенфорд" color="27 салатовый" />
+	<image num="234" title="Стенфорд 03 бежевый  " group="Стенфорд" color="03 бежевый" />
+	<image num="235" title="Стенфорд 01 белый " group="Стенфорд" color="01 белый" />
+	<image num="236" title="Стенфорд серый " group="Стенфорд" color="Серый" />
+
+	<image num="361" title="Осень 6 " group="Осень" color="6" />
+	<image num="362" title="Осень 8 " group="Осень" color="8" />
+	<image num="363" title="Осень 9 " group="Осень" color="9" />
+	<image num="364" title="Осень 13" group="Осень" color="13" />
+	<image num="365" title="Осень 14" group="Осень" color="14" />
+
+	<image num="389" title="Сафари 02" group="Сафари" color="02" />
+	<image num="390" title="Сафари 03" group="Сафари" color="03" />
+	<image num="391" title="Сафари 04" group="Сафари" color="04" />
+	<image num="392" title="Сафари 05" group="Сафари" color="05" />
+	<image num="393" title="Сафари 06" group="Сафари" color="06" />
+
+	<image num="397" title="Хамелеон 2 кремовый" group="Хамелеон" color="2 кремовый" />
+	<image num="398" title="Хамелеон 04 персик" group="Хамелеон" color="04 персик" />
+	<image num="399" title="Хамелеон 29 бежевый" group="Хамелеон" color="29 бежевый" />
+	<image num="400" title="Хамелеон 97 фиолетовый" group="Хамелеон" color="97 фиолетовый" />
+
+	<image num="291" title="Верона 26 зеленый" group="Верона" color="26 зеленый" />
+	<image num="292" title="Верона 29 бежевый" group="Верона" color="29 бежевый" />
+
+	<image num="366" title="Париж 29" group="Париж" color="29 бежевый" />
+	<image num="367" title="Париж 31 т-бежевый" group="Париж" color="31 темно-бежевый" />
+</images><?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+<images>
+	<image num="093" title="Лайн белый цена" group="Лайн" color="Белый" />
+	<image num="335" title="Лайн 29 бежевый" group="Лайн" color="29 бежевый" />
+	<image num="336" title="Лайн 94 синий " group="Лайн" color="94 синий" />
+	<image num="092" title="Лайн абрикос" group="Лайн" color="Абрикос" />
+	<image num="094" title="Лайн голубой" group="Лайн" color="Голубой" />
+	<image num="095" title="Лайн желтый " group="Лайн" color="Желтый" />
+	<image num="096" title="Лайн кремовый " group="Лайн" color="Кремовый" />
+	<image num="097" title="Лайн розовый" group="Лайн" color="Розовый" />
+	<image num="098" title="Лайн салатовый " group="Лайн" color="Салатовый" />
+	<image num="099" title="Лайн серый цена " group="Лайн" color="Серый" />
+
+	<image num="109" title="Магнолия NEW белый " group="Магнолия New" color="NEW белый" />
+	<image num="110" title="Магнолия NEW голубой " group="Магнолия New" color="NEW голубой" />
+	<image num="111" title="Магнолия NEW желтый " group="Магнолия New" color="NEW желтый" />
+	<image num="112" title="Магнолия NEW персик " group="Магнолия New" color="NEW персик" />
+	<image num="113" title="Магнолия NEW розовый ." group="Магнолия New" color="NEW розовый" />
+	<image num="114" title="Магнолия NEW салатовый " group="Магнолия New" color="NEW салатовый" />
+	<image num="115" title="Магнолия NEW серый " group="Магнолия New" color="NEW серый" />
+
+	<image num="308" title="Дождь 1 белый " group="Дождь" color="1 белый" />
+	<image num="309" title="Дождь 3 желтый " group="Дождь" color="3 желтый" />
+	<image num="310" title="Дождь 4 персик " group="Дождь" color="4 персик" />
+	<image num="311" title="Дождь 10 голубой " group="Дождь" color="10 голубой" />
+	<image num="312" title="Дождь 27 салатовый " group="Дождь" color="27 салатовый" />
+
+	<image num="350" title="Милано 04 персик " group="Милано" color="04 персик" />
+	<image num="351" title="Милано 29 бежевый " group="Милано" color="29 бежевый" />
+	<image num="118" title="Милано белый " group="Милано" color="Белый" />
+	<image num="119" title="Милано голубой " group="Милано" color="Голубой" />
+	<image num="120" title="Милано кремовый " group="Милано" color="Кремовый" />
+	<image num="121" title="Милано салатовый " group="Милано" color="Салатовый" />
+	<image num="122" title="Милано серый " group="Милано" color="Серый" />
+
+	<image num="240" title="Фортуна белый " group="Фортуна" color="Белый" />
+	<image num="241" title="Фортуна голубая " group="Фортуна" color="Голубая" />
+	<image num="242" title="Фортуна жёлтый " group="Фортуна" color="Жёлтый" />
+	<image num="243" title="Фортуна розовая " group="Фортуна" color="Розовая" />
+	<image num="244" title="Фортуна салатовый " group="Фортуна" color="Салатовый" />
+	<image num="245" title="Фортуна серая " group="Фортуна" color="Серая" />
+
+	<image num="011" title="Асенас бежевый " group="Асенас" color="Бежевый" />
+	<image num="012" title="Асенас белый " group="Асенас" color="Белый" />
+	<image num="013" title="Асенас голубой " group="Асенас" color="Голубой" />
+	<image num="014" title="Асенас желтый " group="Асенас" color="Желтый" />
+	<image num="015" title="Асенас зеленый " group="Асенас" color="Зеленый" />
+	<image num="016" title="Асенас кремовый " group="Асенас" color="Кремовый" />
+	<image num="017" title="Асенас серый " group="Асенас" color="Серый" />
+
+	<image num="018" title="Бансай белый " group="Бансай" color="Белый" />
+	<image num="019" title="Бансай голубой " group="Бансай" color="Голубой" />
+	<image num="020" title="Бансай кремовый " group="Бансай" color="Кремовый" />
+	<image num="021" title="Бансай персиковый " group="Бансай" color="Персиковый" />
+	<image num="022" title="Бансай салатовый " group="Бансай" color="Салатовый" />
+	<image num="023" title="Бансай серый " group="Бансай" color="Серый" />
+
+	<image num="024" title="Билайн бежевый " group="Билайн" color="Бежевый" />
+	<image num="025" title="Билайн белый " group="Билайн" color="Белый" />
+	<image num="026" title="Билайн голубой  " group="Билайн" color="Голубой" />
+	<image num="027" title="Билайн желтый  " group="Билайн" color="Желтый" />
+	<image num="029" title="Билайн красный " group="Билайн" color="Красный" />
+	<image num="030" title="Билайн кремовый " group="Билайн" color="Кремовый" />
+	<image num="031" title="Билайн оранжевый " group="Билайн" color="Оранжевый" />
+	<image num="032" title="Билайн розовый " group="Билайн" color="Розовый" />
+	<image num="033" title="Билайн салатовый " group="Билайн" color="Салатовый" />
+	<image num="034" title="Билайн серый " group="Билайн" color="Серый" />
+	<image num="035" title="Билайн синий " group="Билайн" color="Синий" />
+	<image num="036" title="Билайн сиреневый " group="Билайн" color="Сиреневый" />
+	<image num="037" title="Билайн фиолетовый " group="Билайн" color="Фиолетовый" />
+
+	<image num="283" title="Блюз 10 голубой " group="Блюз" color="10 голубой" />
+	<image num="284" title="Блюз 10 серый  " group="Блюз" color="10 серый" />
+	<image num="285" title="Блюз 27 салатовый  " group="Блюз" color="27 салатовый" />
+	<image num="038" title="Блюз белый  " group="Блюз" color="Белый" />
+	<image num="039" title="Блюз кремовый  " group="Блюз" color="Кремовый" />
+
+	<image num="319" title="Ирис 22 слоновая кость " group="Ирис" color="22 слоновая кость" />
+	<image num="076" title="Ирис белый  " group="Ирис" color="Белый" />
+	<image num="077" title="Ирис бордо  " group="Ирис" color="Бордо" />
+	<image num="078" title="Ирис голубой  " group="Ирис" color="Голубой" />
+	<image num="079" title="Ирис жёлтый  " group="Ирис" color="Жёлтый" />
+	<image num="080" title="Ирис кремовый  " group="Ирис" color="Кремовый" />
+	<image num="081" title="Ирис персик  " group="Ирис" color="Персик" />
+	<image num="082" title="Ирис салатовый  " group="Ирис" color="Салатовый" />
+	<image num="083" title="Ирис серый  " group="Ирис" color="Серый" />
+	<image num="084" title="Ирис синий  " group="Ирис" color="Синий" />
+
+	<image num="337" title="Лето 01 белый  " group="Лето" color="01 белый" />
+	<image num="338" title="Лето 03 желтый  " group="Лето" color="03 желтый" />
+	<image num="339" title="Лето 05 светло-желтый  " group="Лето" color="05 светло-желтый" />
+	<image num="340" title="Лето 30 коричневый  " group="Лето" color="30 коричневый" />
+	<image num="341" title="Лето 33 розовый  " group="Лето" color="33 розовый" />
+	<image num="342" title="Лето 93 зелёный " group="Лето" color="93 зелёный" />
+
+	<image num="343" title="Маран 01 белый  " group="Маран" color="01 белый" />
+	<image num="344" title="Маран 01 голубой  " group="Маран" color="01 голубой" />
+	<image num="345" title="Маран 02 кремовый  " group="Маран" color="02 кремовый" />
+	<image num="346" title="Маран 03 желтый  " group="Маран" color="03 желтый" />
+	<image num="347" title="Маран 04 персик  " group="Маран" color="04 персик" />
+	<image num="348" title="Маран 27 салатовый  " group="Маран" color="27 салатовый" />
+	<image num="349" title="Маран 33 розовый  " group="Маран" color="33 розовый" />
+
+	<image num="128" title="Олимпик бежевый  " group="Олимпик" color="Бежевый" />
+	<image num="129" title="Олимпик белый  " group="Олимпик" color="Белый" />
+	<image num="130" title="Олимпик голубой  " group="Олимпик" color="Голубой" />
+	<image num="131" title="Олимпик кремовый  " group="Олимпик" color="Кремовый" />
+	<image num="358" title="Олимпик м 03 желтый " group="Олимпик" color="М 03 желтый" />
+	<image num="359" title="Олимпик м 94 синий  " group="Олимпик" color="М 94 синий" />
+	<image num="360" title="Олимпик м 96 розовый  " group="Олимпик" color="М 96 розовый" />
+	<image num="132" title="Олимпик салатовый  " group="Олимпик" color="Салатовый" />
+	<image num="133" title="Олимпик серый  " group="Олимпик" color="Серый" />
+
+	<image num="141" title="Полюс бежевый  " group="Полюс" color="Бежевый" />
+	<image num="142" title="Полюс белый  " group="Полюс" color="Белый" />
+	<image num="143" title="Полюс голубой  " group="Полюс" color="Голубой" />
+	<image num="144" title="Полюс желтый  " group="Полюс" color="Желтый" />
+	<image num="145" title="Полюс зеленый  " group="Полюс" color="Зеленый" />
+	<image num="146" title="Полюс красный  " group="Полюс" color="Красный" />
+	<image num="147" title="Полюс кремовый  " group="Полюс" color="Кремовый" />
+	<image num="148" title="Полюс оранжевый  " group="Полюс" color="Оранжевый" />
+	<image num="149" title="Полюс розовый  ." group="Полюс" color="Розовый" />
+	<image num="150" title="Полюс салатовый  " group="Полюс" color="Салатовый" />
+	<image num="151" title="Полюс синий  " group="Полюс" color="Синий" />
+	<image num="152" title="Полюс сиреневый  " group="Полюс" color="Сиреневый" />
+	<image num="153" title="Полюс фиолетовый  " group="Полюс" color="Фиолетовый" />
+
+	<image num="373" title="Радуга 01 белый  " group="Радуга" color="01 белый" />
+	<image num="374" title="Радуга 02 кремовый  " group="Радуга" color="02 кремовый" />
+	<image num="375" title="Радуга 04 персик  " group="Радуга" color="04 персик" />
+	<image num="376" title="Радуга 08 серый  " group="Радуга" color="08 серый" />
+	<image num="377" title="Радуга 10 голубой" group="Радуга" color="10 голубой" />
+	<image num="378" title="Радуга 19 бордо" group="Радуга" color="19 бордо" />
+	<image num="379" title="Радуга 27 салатовый" group="Радуга" color="27 салатовый" />
+	<image num="380" title="Радуга 33 розовый" group="Радуга" color="33 розовый" />
+	<image num="381" title="Радуга 91 желтый" group="Радуга" color="91 желтый" />
+	<image num="382" title="Радуга 94 синий" group="Радуга" color="94 синий" />
+
+	<image num="383" title="Регал 10 голубой" group="Регал" color="10 голубой" />
+	<image num="384" title="Регал 22 слоновая кость" group="Регал" color="22 слоновая кость" />
+	<image num="385" title="Регал 27 салатовый" group="Регал" color="27 салатовый" />
+	<image num="386" title="Регал 96 розовый " group="Регал" color="96 розовый" />
+	<image num="154" title="Регал бежевый цена " group="Регал" color="Бежевый" />
+	<image num="155" title="Регал белый  " group="Регал" color="Белый" />
+	<image num="156" title="Регал бордо " group="Регал" color="Бордо" />
+	<image num="157" title="Регал желтый " group="Регал" color="Желтый" />
+	<image num="158" title="Регал кремовый  " group="Регал" color="Кремовый" />
+	<image num="159" title="Регал малахит  " group="Регал" color="Малахит" />
+	<image num="160" title="Регал персик  " group="Регал" color="Персик" />
+	<image num="161" title="Регал серый  " group="Регал" color="Серый" />
+	<image num="162" title="Регал синий  " group="Регал" color="Синий" />
+
+	<image num="227" title="София 05 жёлтый  " group="София" color="05 жёлтый" />
+	<image num="228" title="София 01 белый  " group="София" color="01 белый" />
+	<image num="229" title="София 04 персик  " group="София" color="04 персик" />
+	<image num="230" title="София 03 розовый  " group="София" color="03 розовый" />
+	<image num="231" title="София 08 серый  " group="София" color="08 серый" />
+
+	<image num="287" title="Венеция 10 светло-голубой  " group="Венеция" color="10 светло-голубой" />
+	<image num="053" title="Венеция белый  " group="Венеция" color="Белый" />
+	<image num="054" title="Венеция желтый  " group="Венеция" color="Желтый" />
+	<image num="055" title="Венеция зеленый  " group="Венеция" color="Зеленый" />
+	<image num="056" title="Венеция кофейный  " group="Венеция" color="Кофейный" />
+	<image num="057" title="Венеция персиковый  " group="Венеция" color="Персиковый" />
+	<image num="058" title="Венеция розовый  " group="Венеция" color="Розовый" />
+	<image num="059" title="Венеция серый  " group="Венеция" color="Серый" />
+	<image num="060" title="Венеция сиреневый " group="Венеция" color="Сиреневый" />
+
+	<image num="sahara-10" title="Сахара 10  " group="Сахара" color="Сахара 10" />
+	<image num="sahara-01" title="Сахара 01  " group="Сахара" color="Сахара 01" />
+	<image num="sahara-02" title="Сахара 02  " group="Сахара" color="Сахара 02" />
+	<image num="sahara-03" title="Сахара 03  " group="Сахара" color="Сахара 03" />
+	<image num="sahara-04" title="Сахара 04  " group="Сахара" color="Сахара 04" />
+	<image num="sahara-29" title="Сахара 29  " group="Сахара" color="Сахара 29" />
+	<image num="sahara-27" title="Сахара 27  " group="Сахара" color="Сахара 27" />
+	<image num="sahara-42" title="Сахара 42  " group="Сахара" color="Сахара 42" />
+
+	<image num="404" title="Эдем 02 кремовый  " group="Эдем" color="02 кремовый" />
+	<image num="405" title="Эдем 03 желтый  " group="Эдем" color="03 желтый" />
+	<image num="406" title="Эдем 10 голубой" group="Эдем" color="10 голубой" />
+	<image num="407" title="Эдем 29 бежевый" group="Эдем" color="29 бежевый" />
+	<image num="408" title="Эдем 93 зелёный" group="Эдем" color="93 зелёный" />
+
+	<image num="268" title="Айс 02 кремовый" group="Айс" color="02 кремовый" />
+	<image num="269" title="Айс 03 жёлтый" group="Айс" color="03 жёлтый" />
+	<image num="270" title="Айс 08 серый" group="Айс" color="08 серый" />
+	<image num="271" title="Айс 10 голубой" group="Айс" color="10 голубой" />
+	<image num="272" title="Айс 19 бордовый" group="Айс" color="19 бордовый" />
+	<image num="273" title="Айс 27 салатовый" group="Айс" color="27 салатовый" />
+	<image num="274" title="Айс 29 бежевый" group="Айс" color="29 бежевый" />
+	<image num="275" title="Айс 93 зелёный" group="Айс" color="93 зелёный" />
+	<image num="276" title="Айс 95 оранжевый" group="Айс" color="95 оранжевый" />
+
+	<image num="313" title="Идальго 8 серый" group="Идальго" color="8 серый" />
+	<image num="314" title="Идальго 10 голубой" group="Идальго" color="10 голубой" />
+	<image num="315" title="Идальго 22 кремовый" group="Идальго" color="22 кремовый" />
+	<image num="316" title="Идальго 27 салатовый" group="Идальго" color="27 салатовый" />
+	<image num="317" title="Идальго 29 бежевый" group="Идальго" color="29 бежевый" />
+	<image num="318" title="Идальго 30 коричневый" group="Идальго" color="30 коричневый" />
+
+	<image num="respect-28" title="Респект 28 " group="Респект" color="28" />
+	<image num="respect-22" title="Респект 22 " group="Респект" color="2" />
+	<image num="respect-04" title="Респект 04 " group="Респект" color="04" />
+	<image num="respect-03" title="Респект 03 " group="Респект" color="03" />
+	<image num="respect-02" title="Респект 02 " group="Респект" color="02" />
+	<image num="respect-01" title="Респект 01 " group="Респект" color="01" />
+	<image num="respect-26" title="Респект 26 " group="Респект" color="26" />
+	<image num="respect-07" title="Респект 07 " group="Респект" color="07" />
+
+	<image num="288" title="Венеция ВО 01 белый" group="Венеция" color="ВО 01 белый " />
+	<image num="289" title="Венеция ВО 05 желтый" group="Венеция" color="ВО 05 желтый" />
+
+	<image num="320" title="Карнавал 66" group="Карнавал" color="66" />
+	<image num="321" title="Карнавал 191" group="Карнавал" color="191" />
+	<image num="322" title="Карнавал 192" group="Карнавал" color="192" />
+	<image num="323" title="Карнавал 194" group="Карнавал" color="194" />
+	<image num="324" title="Карнавал 201" group="Карнавал" color="201" />
+	<image num="325" title="Карнавал 202" group="Карнавал" color="202" />
+
+	<image num="326" title="Кения 1 белый" group="Кения" color="1 белый" />
+	<image num="327" title="Кения 2 кремовый" group="Кения" color="2 кремовый" />
+	<image num="328" title="Кения 3 жёлтый" group="Кения" color="3 жёлтый" />
+	<image num="329" title="Кения 04 персик" group="Кения" color="04 персик" />
+	<image num="330" title="Кения 27 салатовый" group="Кения" color="27 салатовый" />
+	<image num="331" title="Кения 29 бежевый" group="Кения" color="29 бежевый" />
+	<image num="332" title="Кения 33 розовый" group="Кения" color="33 розовый" />
+	<image num="333" title="Кения 94 синий" group="Кения" color="94 синий" />
+	<image num="334" title="Кения 97 фиолетовый " group="Кения" color="97 фиолетовый" />
+
+	<image num="290" title="Венеция ВО Gзолото " group="Венеция" color="ВО Gзолото" />
+	<image num="061" title="Венеция ВО бронза " group="Венеция" color="ВО бронза" />
+	<image num="064" title="Венеция ВО серебро " group="Венеция" color="ВО серебро" />
+
+	<image num="065" title="Венеция СС бежевый " group="Венеция" color="СС бежевый" />
+	<image num="066" title="Венеция СС голубой " group="Венеция" color="СС голубой" />
+	<image num="067" title="Венеция СС малахит " group="Венеция" color="СС малахит" />
+	<image num="068" title="Венеция СС салатовый" group="Венеция" color="СС салатовый" />
+	<image num="069" title="Венеция СС синий " group="Венеция" color="СС синий" />
+
+	<image num="venecia-S-10" title="Венеция металлик, S-10" group="Венеция" color="S-10" />
+	<image num="venecia-S-01" title="Венеция металлик, S-01" group="Венеция" color="S-01" />
+	<image num="venecia-G-10" title="Венеция металлик, G-10" group="Венеция" color="G-10" />
+	<image num="venecia-G-01" title="Венеция металлик, G-01" group="Венеция" color="G-01" />
+	<image num="venecia-G-05" title="Венеция металлик, G-01" group="Венеция" color="G-05" />
+	<image num="venecia-G-19" title="Венеция металлик, G-19" group="Венеция" color="G-19" />
+
+	<image num="394" title="Техно ВО 22 слоновая кость" group="Техно" color="ВО 22 слоновая кость" />
+	<image num="396" title="Техно ВО 29 бежевый " group="Техно" color="ВО 29 бежевый" />
+	<image num="395" title="Техно ВО 901 серебро " group="Техно" color="ВО 901 серебро" />	
+
+	<image num="279" title="Баунти 800 " group="Баунти" color="800" />
+	<image num="280" title="Баунти 801 " group="Баунти" color="801" />
+	<image num="281" title="Баунти 802 " group="Баунти" color="802" />
+	<image num="282" title="Баунти 803 " group="Баунти" color="803" />
+
+	<image num="085" title="Кассиопея зелёный " group="Кассиопея" color="Зелёный" />
+	<image num="086" title="Кассиопея песочный  " group="Кассиопея" color="Песочный" />
+	<image num="087" title="Кассиопея салатовый " group="Кассиопея" color="Салатовый" />
+	<image num="088" title="Кассиопея светло-сиреневый " group="Кассиопея" color="Светло-сиреневый" />
+
+	<image num="219" title="Сириус желтый " group="Сириус" color="Желтый" />
+	<image num="220" title="Сириус кремовый " group="Сириус" color="Кремовый" />
+	<image num="221" title="Сириус салатовый" group="Сириус" color="Салатовый" />
+
+	<image num="shanhai-822" title="Шанхай 822." group="Шанхай" color="822" />
+	<image num="shanhai-825" title="Шанхай 825" group="Шанхай" color="825" />
+	<image num="shanhai-036" title="Шанхай 036" group="Шанхай" color="036" />
+	<image num="shanhai-039" title="Шанхай 039" group="Шанхай" color="039" />
+	<image num="shanhai-031" title="Шанхай 031" group="Шанхай" color="031" />
+
+	<image num="256" title="Шампань бежевый" group="Шампань" color="Бежевый" />
+	<image num="257" title="Шампань жёлтый" group="Шампань" color="Жёлтый" />
+	<image num="258" title="Шампань коричневый" group="Шампань" color="Коричневый" />
+	<image num="259" title="Шампань светло-серый" group="Шампань" color="Светло-серый" />
+	<image num="260" title="Шампань серый" group="Шампань" color="Серый" />
+
+	<image num="249" title="Челси 767 " group="Челси" color="767" />
+	<image num="250" title="Челси 768  " group="Челси" color="768" />
+	<image num="251" title="Челси 5816  " group="Челси" color="5816" />
+	<image num="252" title="Челси 6922  " group="Челси" color="6922" />
+	<image num="253" title="Челси 9690  " group="Челси" color="9690" />
+	<image num="254" title="Челси 9873  " group="Челси" color="9873" />
+	<image num="255" title="Челси 9975 " group="Челси" color="9975" />
+
+	<image num="lika-03-w" title="Лика NEW 03 белая" group="Лика" color="03 белая" />
+	<image num="lika-03-b" title="Лика NEW 03, бежевая  " group="Лика" color="03 бежевая" />
+	<image num="lika-14-w" title="Лика NEW 14, белая " group="Лика" color="14 белая" />
+	<image num="lika-14-b" title="Лика NEW 14, бежевая  " group="Лика" color="14 бежевая" />
+
+	<image num="213" title="Сидней Е201 " group="Сидней" color="Е201" />
+	<image num="214" title="Сидней Е204  " group="Сидней" color="Е204" />
+	<image num="215" title="Сидней желтый  " group="Сидней" color="Желтый Е302" />
+	<image num="216" title="Сидней песочный  " group="Сидней" color="Песочный" />
+	<image num="217" title="Сидней С701  " group="Сидней" color="С701" />
+	<image num="218" title="Сидней С712  " group="Сидней" color="С712" />
+
+	<image num="skrin-016" title="Скрин 016  ." group="Скрин" color="016" />
+	<image num="224" title="Скрин 13  " group="Скрин" color="13" />
+	<image num="225" title="Скрин 14  " group="Скрин" color="14" />
+	<image num="226" title="Скрин 16  " group="Скрин" color="16" />
+	<image num="skrin-913" title="Скрин 913  " group="Скрин" color="913" />
+	<image num="skrin-911" title="Скрин 911   " group="Скрин" color="911" />
+
+	<image num="232" title="Стенфорд 25 голубой  " group="Стенфорд" color="25 голубой" />
+	<image num="233" title="Стенфорд 27 салатовый  ." group="Стенфорд" color="27 салатовый" />
+	<image num="234" title="Стенфорд 03 бежевый  " group="Стенфорд" color="03 бежевый" />
+	<image num="235" title="Стенфорд 01 белый " group="Стенфорд" color="01 белый" />
+	<image num="236" title="Стенфорд серый " group="Стенфорд" color="Серый" />
+
+	<image num="361" title="Осень 6 " group="Осень" color="6" />
+	<image num="362" title="Осень 8 " group="Осень" color="8" />
+	<image num="363" title="Осень 9 " group="Осень" color="9" />
+	<image num="364" title="Осень 13" group="Осень" color="13" />
+	<image num="365" title="Осень 14" group="Осень" color="14" />
+
+	<image num="389" title="Сафари 02" group="Сафари" color="02" />
+	<image num="390" title="Сафари 03" group="Сафари" color="03" />
+	<image num="391" title="Сафари 04" group="Сафари" color="04" />
+	<image num="392" title="Сафари 05" group="Сафари" color="05" />
+	<image num="393" title="Сафари 06" group="Сафари" color="06" />
+
+	<image num="397" title="Хамелеон 2 кремовый" group="Хамелеон" color="2 кремовый" />
+	<image num="398" title="Хамелеон 04 персик" group="Хамелеон" color="04 персик" />
+	<image num="399" title="Хамелеон 29 бежевый" group="Хамелеон" color="29 бежевый" />
+	<image num="400" title="Хамелеон 97 фиолетовый" group="Хамелеон" color="97 фиолетовый" />
+
+	<image num="291" title="Верона 26 зеленый" group="Верона" color="26 зеленый" />
+	<image num="292" title="Верона 29 бежевый" group="Верона" color="29 бежевый" />
+
+	<image num="366" title="Париж 29" group="Париж" color="29 бежевый" />
+	<image num="367" title="Париж 31 т-бежевый" group="Париж" color="31 темно-бежевый" />
+</images>
