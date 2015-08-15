@@ -1,0 +1,301 @@
+/*calc-section*/
+
+.calc-section{
+	text-align: center;
+	overflow: hidden;	
+	font: 300 16px "Open Sans",sans-serif;
+	padding-bottom: 30px;
+}
+
+.info-block{
+	position: absolute;
+	right: -54px;
+	top: 0;
+	display: block;
+	width: 300px;
+	
+	padding-top:5px;
+	padding-right: 44px;
+	font-family: 'Bad Script';
+	color: #FFF;
+	font-size: 24px;
+	min-height: 258px;
+	letter-spacing: -0.3px;
+	z-index: 1;
+}
+.block-title{
+	font-size: 48px;
+	color: #FFF;
+	margin-bottom: 44px;
+	text-align: center;
+	font-weight: normal;
+}
+
+.calc-section .form-wrapper{
+	-moz-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+	padding:0 40px 8px;
+	margin-bottom: 0;
+	text-align: left;
+  border: 1px solid #e6e8eb;
+}
+
+.form_money{
+	border-top: 1px dotted #BFBFBF;
+	padding: 0 0 5px;
+	position: relative;
+}
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+
+    /* Safari only override */
+    ::i-block-chrome,.form_money {padding-top: 10px;}
+}
+
+
+
+
+.form_money label{
+	font-size: 16px;
+	line-height: 42px;
+	color: #26282E;
+	display: inline-block;
+	width: 400px;
+	*display: inline;
+	zoom:1;
+	font-family: 'Open Sans', sans-serif, Arial;
+	font-weight: 800;
+}
+
+.form_money label span.decoration{
+	font: 300 16px "Open Sans",sans-serif;
+	color: #26282E;
+	padding-right: 25px;
+}
+
+.form_money label:hover span.decoration{
+	color: rgba(54, 196, 184, 1);
+}
+
+.form_money label span{
+	color: #B0B3B8;
+}
+
+.form_money:first-child{
+	border: none;
+}
+
+.slider, .summ, .average_price, .conversion, .conversion-sales, .average-margin {position: relative; z-index: 9999999; width: 380px; display: inline-block; *display: inline; zoom:1;} 
+.result-block{display: inline-block;*display: inline; zoom:1;}
+.ui-slider-range { background: rgba(54, 196, 184, 1); }
+.ui-widget-content{
+	background: #E6E8EB;
+	border: none;
+	border-top: 1px solid #DDDFE2;
+	height: 7px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin: 0 40px;
+	position: relative;
+	top: 22px;
+	z-index: 100;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) { 
+
+    /* Safari only override */
+    ::i-block-chrome,.ui-widget-content {top: -7px;}
+}
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default{
+	background: url(../images/slider-pic.png) no-repeat;
+	border: none;
+	width: 20px;
+	height: 22px;
+	border-top: 1px solid inherit;
+	top: -0.6em;
+}
+
+.result-block{
+	background: #FFF;
+	border: 1px solid #e6e8eb;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 5px 20px;
+	width: 225px;
+}
+
+.result-block input{
+	border: none;
+	border-right: 1px solid #e6e8eb;
+	color: #98999E;
+	margin-right: 18px;
+	width: 130px;
+	background: #FFF;
+	outline: none;
+	position: relative;
+	z-index: 2;
+	font: 18px "Open Sans",sans-serif;
+}
+
+.result-block span{
+	color: rgba(54, 196, 184, 1);
+	font: 600 16px "Open Sans",sans-serif;
+}
+
+
+
+.result-summ-block{
+	-moz-border-radius: 13px;
+	-webkit-border-radius: 13px;
+	border-radius: 13px;
+	padding: 12px;
+	zoom: 1;
+	display: inline-block;
+	*display: inline;
+	margin-top: 29px;
+	position: relative;
+}
+
+.result-summ-block  .result-num{
+	display: inline-block;
+	width:47px;
+	height: 62px;
+	text-align: center;
+	font-size: 50px;
+	color: #36363D;
+	zoom: 1;
+	margin-left: -6px;
+	*display: inline;
+	background: url(../images/calc-center-min.png) no-repeat;
+	font-weight: normal;
+}
+
+.result-summ-block  .title-block{
+	font-size: 24px;
+	color: #FFF;
+	font-weight: 800;
+	margin-bottom: 10px;
+}
+
+.result-summ-block  .result-num:nth-child(3n+1){
+	margin-left: 5px;
+}
+
+.result{
+	color: #FFF;
+  margin: 0;
+	font-family: 'Marck Script';
+	font-size: 30px;	
+	padding: 10px 0;
+	letter-spacing: -0.3px;
+}
+.form-legend-text {
+    color: #979A9E;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    width: 18.5%;
+}
+
+.form-legend-text:last-child{
+	position: relative;
+    right: 34px;
+    text-align: right;
+}
+
+.form-legend:after {
+    content: ".";
+    display: inline-block;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+}
+.form-legend {
+    color: #777C80;
+    font-size: 11px;
+    line-height: 13px;
+    margin-left: -42px;
+    margin-top: 15px;
+    width: 476px;
+}
+
+.result_photos{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -650px;
+}
+
+.gallery-section_foto-picture {
+        padding: 20px 0px 60px 20px;
+        width: 219px;
+        height: 239px;
+        background: url(../images/polaroid.png);
+        -webkit-transform-origin: 15px 0;
+           -moz-transform-origin: 15px 0;
+            -ms-transform-origin: 15px 0;
+             -o-transform-origin: 15px 0;
+                transform-origin: 15px 0;
+        }
+
+    .gallery-section_foto{
+    	position: absolute;
+        bottom: 0;
+    }
+
+    .gallery-section_foto-img {
+            display: block;
+            width: 180px;
+            height: 160px;
+            background-size: cover;
+            }
+
+	/*	.gallery-section_foto_first .gallery-section_foto-img{background-position: 0 -210px;}
+		.gallery-section_foto_third  .gallery-section_foto-img{background-position: 0 -410px;}
+		.gallery-section_foto_fourth .gallery-section_foto-img{background-position: 0 -610px;}*/
+
+	.gallery-section_foto_first {
+		left: -21px;
+		bottom: -21px;
+        -webkit-transform: rotate(-30deg);
+           -moz-transform: rotate(-30deg);
+            -ms-transform: rotate(-30deg);
+             -o-transform: rotate(-30deg);
+                transform: rotate(-30deg);
+	}
+	.gallery-section_foto_second {
+		bottom: 0;
+    	left: 60px;
+        -webkit-transform: rotate(-10deg);
+           -moz-transform: rotate(-10deg);
+            -ms-transform: rotate(-10deg);
+             -o-transform: rotate(-10deg);
+                transform: rotate(-10deg);
+	}
+	.gallery-section_foto_third {
+		bottom: 0;
+    	right: 60px;
+        -webkit-transform: rotate(10deg);
+           -moz-transform: rotate(10deg);
+            -ms-transform: rotate(10deg);
+             -o-transform: rotate(10deg);
+                transform: rotate(10deg);
+	}
+	.gallery-section_foto_fourth {
+		bottom: -21px;
+    	right: -23px;
+        -webkit-transform: rotate(30deg);
+           -moz-transform: rotate(30deg);
+            -ms-transform: rotate(30deg);
+             -o-transform: rotate(30deg);
+                transform: rotate(30deg);
+	}
+/*end calc-section*/

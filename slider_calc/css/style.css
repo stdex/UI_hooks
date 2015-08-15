@@ -1,0 +1,90 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	font-family: sans-serif;
+}
+
+.button {
+	border: none;
+	background: #00c1c6;
+	-moz-box-shadow: #006165 0 2px 0;
+	-webkit-box-shadow: #006165 0 2px 0;
+	box-shadow: #006165 0 2px 0;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	padding: 0 45px;
+	height: 47px;
+	font: bold 18px/47px "Open Sans";
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	-moz-transition: background ease 0.3s 0;
+	-o-transition: background ease 0.3s 0;
+	-webkit-transition: background ease 0.3s;
+	-webkit-transition-delay: 0;
+	transition: background ease 0.3s 0;
+}
+.button:hover {background: #008b8e;}
+.button:focus{outline:none;}
+
+.g-sectionHeader  {
+	position: relative;
+	font: 600 25px "Open Sans";
+	color: rgba(54, 196, 184, 1);
+	padding-bottom: 25px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.g-sectionHeader:before, .g-sectionHeader:after{content: "";position: absolute;width: 550px;height: 16px;top: 34px;display: block;left: 50%;margin-left: -275px;}
+.g-sectionHeader:after{background:url("../images/lineforwhite.png");}
+
+.vopros {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-right: 9px;
+	position: absolute;
+	left: -27px;
+	top: 24px;
+}
+
+.result-summ-block .vopros {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 10px;
+	cursor: pointer;
+	margin-right: 9px;
+	position: absolute;
+	left: 96px;
+	top: 10px;
+}
+
+.vopros:hover span {
+	display: block !important;
+}
+
+.podsk {
+	position: absolute;
+	top: 24px;
+	display: none;
+	width: 350px;
+	text-align: left;
+	background: rgba(54, 196, 184, 1);
+	padding: 6px;
+	border-radius: 14px;
+	z-index: 120;
+}
+
+

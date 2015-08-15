@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+.g-container {
+    position:relative;
+    margin:0 auto;
+    padding:0;
+    width:1100px
+}
+
+.g-sectionHeader.-type_leavemsg {
+    margin:0 0 40px;
+    color:#fff;
+    font-size:24px
+}
+.g-sectionHeader.-type_white {
+    margin:0 0 18px;
+    color:#fff
+}
+
+.l-calc {
+    overflow:hidden
+}
+.calc-section .form-title {
+    font:300 18px/1"Open Sans",
+    sans-serif;
+    color:#26282e;
+    width:320px;
+}
+.calc-section .ui-widget-content {
+    margin:0 34px!important;
+    top:28px!important
+}
+.calc-section .form_money {
+    padding:2px 0 12px!important
+}
+.calc-section .result-block {
+    width:197px!important;
+    padding:10px 20px!important;
+}
+.calc-section .result-block input {
+    width:161px!important;
+    margin-right:14px!important
+}
+.calc-section .form-legend-text {
+    font:500 12px/1"Open Sans",
+    sans-serif;
+    color:#979a9e
+}
+.calc-section .ui-slider-handle {
+    top:-7px!important
+}
+.calc-section .gallery-section_foto-picture {
+    background-repeat:no-repeat!important
+}
+.calc-section .result-num {
+    width:44px!important;
+    height:73px!important;
+    margin:0 1px!important;
+    border:1px solid #e5e7eb!important;
+    -moz-border-radius:4px / 4px 4px 4px 4px!important;
+    border-radius:4px / 4px 4px 4px 4px!important;
+    background:#fff!important;
+    font:60px/65px"Open Sans",
+    sans-serif;
+    color:#c5cad1!important
+}
+.calc-section .result-num:nth-child(3n+1) {
+    margin-left:7px!important
+}
+.calc-section .title-block {
+    font:20px/1"Open Sans",
+    sans-serif!important;
+    color:#26282e!important
+}
+.calc-section .result {
+    color:#a0a5ad!important;
+    font:16px"Open Sans",
+    sans-serif;
+}
+.b-calcHint {
+    color:#a7acb3;
+    font-size:14px;
+    margin:14px 0;
+    font:16px"Open Sans",
+    sans-serif;
+}
+
+@media only screen and (max-width: 1200px) {
+    .calc-section .form_money {
+        padding:2px 0 12px!important
+    }
+    .calc-section .form-wrapper {
+        margin-bottom:10px;
+        padding:0 40px 2px
+    }
+    .calc-section .result {
+        padding:0;
+        margin:0
+    }
+    .gallery-section_foto_first,
+    .gallery-section_foto_fourth {
+        bottom:-100px!important
+    }
+    .gallery-section_foto_second,
+    .gallery-section_foto_third {
+        bottom:-64px!important
+    }
+    .result-summ-block {
+        margin:-14px 0 0
+    }
+    .calc-section .ui-widget-content {
+        top:0!important
+    }
+    .calc-section .result-block {
+        margin-top:3px
+    }
+    .calc-section .result-block input {
+        margin-right:3px!important;
+        width:130px!important;
+        margin-top:3px
+    }
+}

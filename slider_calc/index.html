@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+
+<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,
+800italic,400,300,600,700,800&amp;subset=cyrillic-ext,latin-ext,latin,cyrillic" rel="stylesheet" 
+type="text/css">
+
+
+<link href="css/style.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet">
+<link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/smoothness/jquery-ui.css" />
+<link href="css/old.css" rel="stylesheet">
+
+
+<script src="js/jquery-2.1.1.min.js"></script>
+<script src="js/jquery-ui.min.js"></script>
+<script src="js/old.js"></script>
+
+</head>
+
+<body>
+
+<div class="l-calc calc-section section" id="calculate">
+	<div class="container g-container">
+		<h3 class="g-sectionHeader">ЭКСПРЕСС-ТЕСТ 
+		на окупаемость</h3>
+		<span style="margin: 20px 0;display: block;" class="calc-description">Узнайте, насколько эффективным для Вашего бизнеса будет <b>Landing Page!</b></span>
+		<form action="index.html" method="post">
+			<div class="form-wrapper">
+				<div class="form_money">
+					<label for="summ" class="form-title btn-popup">
+						<span class="decoration">Размер инвестиций в рекламу</span>
+					</label>
+					<div class="summ">
+						<div class="form-legend">
+							<span class="form-legend-text">0</span>
+							<span class="form-legend-text">625</span>
+							<span class="form-legend-text">1&nbsp;250</span>
+							<span class="form-legend-text">1&nbsp;875</span>
+							<span class="form-legend-text">2&nbsp;500</span>
+						</div>
+					</div>
+					<div class="result-block">
+						<input type="text" id="summ" min="0" max="2500" onkeyup="isright(this);">
+						<span>$</span>
+					</div>
+				</div>
+				<div class="form_money">
+					<p class="vopros">?<span class="podsk">Стоимость клика — это цена одного, целевого перехода на Ваш сайт с рекламного канала. Если Вы не знаете, сколько в среднем стоит 1 переход на Ваш сайт, возьмите среднею цену, которая состовляет обычно около 0.2-0.4$</span></p>
+					<label for="average_price" class="form-title btn-popup">
+						<span class="decoration">Средняя стоимость одного клика</span>
+					</label>
+					<div class="average_price">
+						<div class="form-legend">
+							<span class="form-legend-text">0</span>
+							<span class="form-legend-text">0.75</span>
+							<span class="form-legend-text">1.5</span>
+							<span class="form-legend-text">2.25</span>
+							<span class="form-legend-text">3</span>
+						</div>
+					</div>
+					<div class="result-block">
+						<input type="text" id="average_price"  min="0" max="5" onkeyup="isright(this);">
+						<span>$</span>
+					</div>
+				</div>
+				<div class="form_money" style="display: none;">
+					<p class="vopros">?<span class="podsk">То, какую прибыль Вы в среднем получаете с продажи Вашего товара или услуги.</span></p>
+					<label for="conversion-sales" class="form-title btn-popup">
+						<span class="decoration">Средняя прибыль с 1 клиента</span>
+					</label>
+					<div class="conversion-sales">
+						<div class="form-legend">
+							<span class="form-legend-text">0</span>
+							<span class="form-legend-text">10</span>
+							<span class="form-legend-text">20</span>
+							<span class="form-legend-text">30</span>
+							<span class="form-legend-text">40</span>
+						</div>
+					</div>
+					<div class="result-block">
+						<input type="text" id="conversion-sales" min="0" max="20" onkeyup="isright(this);">
+						<span>%</span>
+					</div>
+				</div>
+				<div class="form_money">
+					<p class="vopros">?<span class="podsk">То, какую прибыль Вы в среднем получаете с продажи Вашего товара или услуги.</span></p>
+					<label for="average-margin" class="form-title btn-popup">
+						<span class="decoration">Ваша средняя прибыль с 1 клиента</span>
+					</label>
+					<div class="average-margin">
+						<div class="form-legend">
+							<span class="form-legend-text">0</span>
+							<span class="form-legend-text">625</span>
+							<span class="form-legend-text">1&nbsp;250</span>
+							<span class="form-legend-text">1&nbsp;875</span>
+							<span class="form-legend-text">2&nbsp;500</span>
+						</div>
+					</div>
+					<div class="result-block">
+						<input type="text" id="average-margin" min="0" max="2500" onkeyup="isright(this);">
+						<span>$</span>
+					</div>
+				</div>
+				<div class="form_money">
+					<p class="vopros">?<span class="podsk">Конверсия – это процесс преобразования обычного посетителя сайта в клиента, уже готового отдать Вам свои деньги. Конверсия сайта измеряется в процентах.<br> Простой пример: 1000 человек зашли на Ваш сайт и 100 человек из них оставили заявку. Конверсия Вашего сайта будет составлять ровно 10%.</span></p>
+					<label for="conversion" class="form-title btn-popup"><span class="decoration">Конверсия Вашего сайта</span></label>
+					<div class="conversion">
+						<div class="form-legend">
+							<span class="form-legend-text">0</span>
+							<span class="form-legend-text">10</span>
+							<span class="form-legend-text">20</span>
+							<span class="form-legend-text">30</span>
+							<span class="form-legend-text">40</span>
+						</div>
+					</div>
+					<div class="result-block">
+						<input type="text" id="conversion" min="0" max="20" onkeyup="isright(this);">
+						<span>%</span>
+					</div>
+				</div>
+			</div>
+			<div class="result-summ-block">
+			<p class="vopros">?<span class="podsk">Чистая прибыль в этом калькуляторе берется из рассчёта 4 основных параметров и вычетом расходов на рекламу. Не стоит воспринимать этот калькулятор буквально. Каждый продукт и услуга по своему уникальна и говорить о реальных результатах можно только после проведения реального тестирования, анализа и работы над Вашим проектом.</span></p>
+				<h3 class="title-block">Чистая прибыль в $ за месяц<!-- в месяц --></h3>
+				<div class="b-calcHint">При условии, что каждая <span style="color: rgba(54, 196, 184, 1)">четвертая заявка</span> превращается в заказ</div>
+				<p id="profit_summ"></p>
+			</div>
+			<p class="result" id="result_text"></p>
+			<span class="calc-description" style="font-size: 16px; display: block; margin: 20px 0 0px 0;line-height: 1.5;/* font-weight: 600;*/">
+				<!--Представьте, что в вашей воронке продаж больше нет узких мест и "протечек". Не теряйте свои деньги, выявите проблемы уже сегодня! Закажите бесплатную консультацию эксперта!-->
+			</span>
+			
+
+			<div class="gallery-section_foto gallery-section_foto_first">
+				<div class="gallery-section_foto-picture">
+					<span class="gallery-section_foto-img"></span>
+				</div>
+			</div>
+			<div class="gallery-section_foto gallery-section_foto_second">
+				<div class="gallery-section_foto-picture">
+					<span class="gallery-section_foto-img"></span>
+				</div>
+			</div>
+			<div class="gallery-section_foto gallery-section_foto_third">
+				<div class="gallery-section_foto-picture">
+					<span class="gallery-section_foto-img"></span>
+				</div>
+			</div>
+			<div class="gallery-section_foto gallery-section_foto_fourth">
+				<div class="gallery-section_foto-picture">
+					<span class="gallery-section_foto-img"></span>
+				</div>
+			</div>
+
+		</form>
+		<button class="button call_form">
+				Узнать как я смогу заработать
+			</button>
+	</div>
+</div>
+
+
+</body>
+</html>
