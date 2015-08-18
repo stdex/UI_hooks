@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+
+<link type="text/css" rel="stylesheet" href="css/calculator.css">
+
+<script src="js/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
+
+
+</head>
+
+<body>
+<section class="calculator" id="calculator">
+    <div class="inner">
+        <span id="fast1"></span>
+        <h1>Рассчитать <span>стоимость</span> ремонта</h1>
+        
+            <div class="kl_img">
+
+            </div>
+            <div class="kl_div_form">
+                <form action="" method="post" id="vp_form_id" class="-visor-no-click">
+                    <script>
+                        $(function() {
+                            $("label[data-cheched]").click(function() {
+
+                                var name = $(this).attr('data-cheched-name');
+                                $("label[data-cheched][data-cheched-name='" + name + "']").attr('data-cheched', '0');
+
+                                $(this).attr('data-cheched', 1);
+                                $("input[name='"+name+"'][value='"+$(this).text()+"']").prop("checked",true);
+                            });
+                        });
+                    </script>
+                    <div class="vp_bl_1" style="opacity: 1; z-index:10;">
+                        <div class="kl_zg_vp">Выберите тип ремонта:</div>
+                        <div class="kl_vp_list">
+                            <div class="test_vp">
+                                <input type="radio" class="radio" id="radio_vp_1_1" name="vp_1" value="косметический" checked="checked">
+                                <input type="radio" class="radio" id="radio_vp_1_2" name="vp_1" value="капитальный">
+                                <input type="radio" class="radio" id="radio_vp_1_3" name="vp_1" value="элитный">
+
+                                <label for="radio_vp_1_1" data-cheched="1" data-cheched-name="vp_1">косметический</label>
+                                <label for="radio_vp_1_2" data-cheched="0" data-cheched-name="vp_1">капитальный</label>
+                                <label for="radio_vp_1_3" data-cheched="0" data-cheched-name="vp_1">элитный</label>
+                                <br>
+                                <hr style="  border: 1px solid rgba(255, 255, 255, 0);">
+                                <p style="text-align: center;  margin-top: 10px;">Введите площадь помещения, м2</p>
+                                <input class="plosh" type="text" name="plosh" value="">
+
+                            </div>
+                            <div class="kn_kl">
+                                <div class="btn vp_btn" onclick="if($('input[name=plosh]').val()!='') {$('.vp_bl_1').css({'opacity': 0, 'z-index': 0});
+                                            $('.vp_bl_2').css({'opacity': 1, 'z-index': 10}); }else{$('input[name=plosh]').focus();}">Продолжить &gt;  </div>
+                                <div class="vp_shag">Шаг 1 <span>из</span> 4</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="vp_bl_2" style="opacity: 0; z-index:0;">
+                        <div class="kl_zg_vp">Выберите тип дома:</div>
+                        <div class="kl_vp_list">
+                            <div class="test_vp">
+                                <input type="radio" id="radio_vp_2_1" class="radio" name="vp_2" value="Новостройка" checked="checked">
+                                <label for="radio_vp_2_1" data-cheched="1" data-cheched-name="vp_2">Новостройка</label>
+                                <input type="radio" id="radio_vp_2_2" class="radio" name="vp_2" value="Вторичное жилье">
+                                <label for="radio_vp_2_2" data-cheched="0" data-cheched-name="vp_2">Вторичное жилье</label>
+                                <input type="radio" id="radio_vp_2_3" class="radio" name="vp_2" value="Загородный дом">
+                                <label for="radio_vp_2_3" data-cheched="0" data-cheched-name="vp_2">Загородный дом</label>
+
+                                <br>
+                                <div class="vp_2_to_foto">
+                                    <div class="vp_2_foto">
+                                        <img src="images/g8zZJHOzVrM.jpg" alt="">
+                                    </div>
+                                    <div class="vp_2_foto">
+                                        <img src="images/vJm-uvbAKOg.jpg" alt="">
+                                    </div>
+                                    <div class="vp_2_foto">
+                                        <img src="images/JrSqJG1_ceg.jpg" alt="">
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="kn_kl">
+                                <div class="btn vp_btn" onclick="$('.vp_bl_2').css({'opacity': 0, 'z-index': 0});
+                                            $('.vp_bl_3').css({'opacity': 1, 'z-index': 10});">Продолжить &gt;  </div>
+                                <div class="vp_shag">Шаг 2 <span>из</span> 4</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="vp_bl_3" style="opacity: 0; z-index:0;">
+                        <div class="kl_zg_vp" style="  font-size: 20px;">система автоматически расчитает стоимость<br>
+                            вашего ремонта и отправит смс-сообщение<br>
+                            на указанный номер</div>
+                        <div class="kl_vp_list">
+                            <div class="test_vp33">
+                                <input type="text" name="phone" placeholder="Ваш телефон +7(ххх)ххххххх">
+                                <br>
+                                <div style="text-align: center;
+  font-size: 15px;
+  line-height: 20px;
+  margin-top: -15px;">
+                                    Введите номер Вашего телефона для получения бесплатного<br> смс-сообщения с расчетом.
+
+                                </div>
+                            </div>
+                            <div class="kn_kl">
+                                <div class="btn btn_vp_bl_3_to" onclick="">Продолжить &gt;  </div>
+                                <div class="vp_shag">Шаг 3 <span>из</span> 4</div>
+                            </div>
+                            <script>
+                                $(function () {
+
+                                    $("#vp_form_id input[name='phone']").mask("8 (999) 999 99 99");
+
+                                    $("#vp_form_id").submit(function() {return false;});
+                                    $(".btn_vp_bl_3_to").bind("click", function () {
+                                        var ph = $("#vp_form_id input[name='phone']").val();
+
+
+
+                                        if (/[\s\(\)\d\+]{10,22}/.test(ph)) {
+                                            var data = $("#vp_form_id").serialize();
+											/*
+                                            $.ajax({
+                                                url: '/vp.php',
+                                                data: data,
+                                                //                                                dataType: 'html',
+                                                type: 'POST',
+                                                success: function () {
+                                                    $('.vp_bl_3').css({'opacity': 0, 'z-index': 0});
+                                                    $('.vp_bl_4').css({'opacity': 1, 'z-index': 10});
+                                                    $("#vp_form_id input[type='text']").val('');
+                                                }
+                                            });
+                                            */
+                                        }
+                                    });
+                                });
+                            </script>
+                        </div>
+                    </div>
+
+                    <div class="vp_bl_4" style="opacity: 0; z-index:0;">
+                        <div class="kl_zg_vp11">Благодарим за Ваше обращение!</div>
+                        <div class="kl_vp_list">
+
+                            <p style="width: 585px; margin: auto;  text-align: center;">
+                                Мы свяжемся с Вами в ближайшее рабочее время <br>с 9:00 до 22:00
+                            </p>
+                        </div>
+                    </div>
+
+
+                </form>
+                <img src="images/calc.png" style="
+    float: right;
+    margin: 125px -15px 0px 0;
+">
+            </div>
+
+
+
+
+        
+
+
+
+
+
+
+
+
+    </div>
+</section>
+
+</body>
+</html>
