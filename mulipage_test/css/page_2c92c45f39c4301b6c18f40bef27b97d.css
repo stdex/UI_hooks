@@ -1,0 +1,127 @@
+.form-hidden {display: none;}
+.data-table h2 {font-size: 12px !important}
+.test-form-fieldset {
+	border-top: 1px dotted #ddd;
+	padding-top:1em;
+	margin:0.3em 0 1.5em;
+}
+
+.test-form-caption {
+	font-size: 110%;
+	margin-bottom:0.2em;
+}
+
+.test-form-caption .missing-text {
+	color: #aaa;
+}
+
+.filled .test-form-caption .missing-text {
+	color: #069;
+}
+
+.test-form-fieldset p.note {
+	margin:0em 0 0.1em;
+}
+
+.test-form-type-radio label {
+	cursor: pointer;
+	padding: 0.1em 3px;
+}
+.test-form-type-radio label,
+.test-form-type-radio label input {
+	cursor: pointer;
+}
+.test-form-type-radio label span {
+	padding: 0 3px;
+}
+
+.test-form-type-radio label.selected {
+	cursor: default;
+}
+
+
+.test-form-top-menu {
+	font-size:10pt;
+}
+.test-form-top-menu p {
+	margin-bottom:0.2em;
+}
+.test-form-top-menu .pseudo {
+	font-size: 1.2em;
+	position:relative;
+	white-space: nowrap;
+	padding:0; margin:0;background:none;display:-moz-inline-box;display: inline-block;*zoom: 1;*display: inline;word-spacing: normal;vertical-align: top;padding:0 5px 0 0; height:32px; font-size:18px; color:#2db5d8; margin:0 8px;
+}
+
+.test-form-top-menu-separator {
+	color:#666;
+	font-size: 1.2em;
+	margin:0 1ex;
+}
+
+
+.test-form-top-menu-fill {
+	background:#d4d4d4;
+	overflow:hidden;
+	position:absolute;
+	width:0;
+	z-index:1;
+	display:none;
+}
+
+.selected .test-form-top-menu-fill {
+	background:#006699;
+	color:#fff;
+}
+
+.test-form-top-menu-filled {
+	background:#fff;
+}
+.selected .test-form-top-menu-filled {
+	background:#e0f6f3;
+	color: inherit;
+}
+
+.test-form-top-menu-empty {
+	background:#fff;
+	display:inline-block;
+	display:block; height:30px; line-height:30px; cursor:pointer; 
+	margin:0 5px 0 10px; padding:2px 0 0 0;
+}
+
+.form-button-wrapper {
+	background:#eee;
+	padding:0.5em;
+}
+
+.form-button-wrapper .next {
+	float:right;
+}
+
+.form-element-textarea {
+	width:30em;
+	height:5em;
+}
+
+.test-form .form-fieldset {
+	margin:0 0 1.2em;
+	
+}
+
+.test-form .form-type-text input,
+.test-form .form-type-email input {
+	width:20em;
+}
+
+.test-form-top-menu{line-height:30px; font-weight:bold; margin:0 0 20px -10px;}
+.test-form-top-menu .note { margin:0 0 0 10px;}
+.test-form-top-menu .pseudo { padding:0; margin:0;background:none;display:-moz-inline-box;display: inline-block;*zoom: 1;*display: inline;word-spacing: normal;vertical-align: top;padding:0 5px 0 0; height:32px; font-size:18px; color:#2db5d8; margin:0 8px;}
+.test-form-top-menu .pseudo span { display:block; height:30px; line-height:30px; cursor:pointer; 
+	margin:0 5px 0 10px; padding:2px 0 0 0;}
+.test-form-top-menu .pseudo:hover { color:#e40624}
+.test-form-top-menu .pseudo:hover span {}
+.test-form-top-menu .pseudo.selected {color:#b4b4b4; }
+.test-form-top-menu .pseudo.selected span {padding:2px 5px 0 10px; margin:0;}
+
+.wrapper .test-form select { display:block; margin:0 0 20px 0; width:700px;;max-width:700px; padding:0;overflow:hidden;text-align:left;}
+.wrapper .test-form  select option {width:680px;max-width:680px; white-space:normal; padding:0; margin:0; overflow:hidden;}

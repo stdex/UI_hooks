@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta charset="utf-8" />
+        <title>ClassyCountdown jQuery plugin | vox.SPACE</title>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/jquery.classycountdown.js"></script>
+		<script src="js/jquery.knob.js"></script>
+		<script src="js/jquery.throttle.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/jquery.classycountdown.min.css" />
+
+    </head>
+    <body>
+		
+		<div class="countdown3"></div>
+      
+		<script>
+			$(document).ready(function() {
+				
+				$('.countdown3').ClassyCountdown({
+					end: $.now() + 10000,
+					labels: true,
+					labelsOptions: {
+						lang: {
+							days: 'дней',
+							hours: 'часа',
+							minutes: 'минут',
+							seconds: 'секунд'
+						},
+						style: 'font-size:0.5em; text-transform:uppercase;'
+					},
+					style: {
+						element: "",
+						textResponsive: .7,
+						days: {
+							gauge: {
+								thickness: 0.15,
+								bgColor: "#C5C5C5",
+								fgColor: "rgb(51, 102, 153)"
+							},
+							textCSS: 'font-family:\'Lobster\', cursive; font-size:25px; font-weight:300; color:#C5C5C5;'
+						},
+						hours: {
+							gauge: {
+								thickness: 0.15,
+								bgColor: "#C5C5C5",
+								fgColor: "rgb(51, 102, 153)"
+							},
+							textCSS: 'font-family:\'Lobster\', cursive; font-size:25px; font-weight:300; color:#C5C5C5;'
+						},
+						minutes: {
+							gauge: {
+								thickness: 0.15,
+								bgColor: "#C5C5C5",
+								fgColor: "rgb(51, 102, 153)"
+							},
+							textCSS: 'font-family:\'Lobster\', cursive; font-size:25px; font-weight:300; color:#C5C5C5;'
+						},
+						seconds: {
+							gauge: {
+								thickness: 0.15,
+								bgColor: "#C5C5C5",
+								fgColor: "rgb(51, 102, 153)"
+							},
+							textCSS: 'font-family:\'Lobster\', cursive; font-size:25px; font-weight:300; color:#C5C5C5;'
+						}
+
+					},
+					onEndCallback: function() {
+						console.log("Time out!");
+					}
+				});
+				
+
+			});
+		</script>
+
+
+    </body>
+</html>

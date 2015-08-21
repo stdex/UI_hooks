@@ -1,0 +1,316 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clearfix:before, .clearfix:after { content: " "; display: table; }
+.clearfix:after { clear: both; }
+/* * For IE 6/7 only * Include this rule to trigger hasLayout and contain floats. */
+.clearfix { *zoom: 1; }
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  -webkit-transition: color 200ms ease;
+  -moz-transition: color 200ms ease;
+  -ms-transition: color 200ms ease;
+  -o-transition: color 200ms ease;
+  transition: color 200ms ease;
+  -webkit-transition: background 200ms ease;
+  -moz-transition: background 200ms ease;
+  -ms-transition: background 200ms ease;
+  -o-transition: background 200ms ease;
+  transition: background 200ms ease;
+  -webkit-transition: box-shadow 200ms ease;
+  -moz-transition: box-shadow 200ms ease;
+  -ms-transition: box-shadow 200ms ease;
+  -o-transition: box-shadow 200ms ease;
+  transition: box-shadow 200ms ease; 
+
+  -webkit-transition: opacity 200ms ease;
+  -moz-transition: opacity 200ms ease;
+  -ms-transition: opacity 200ms ease;
+  -o-transition: opacity 200ms ease;
+  transition: opacity 200ms ease;
+}
+
+body {
+  min-width: 960px;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-weight: 300;
+  overflow-x: hidden;
+  color: #5f5f5f; }
+
+h2{
+  font-size: 23px;
+  line-height: 24px;
+  font-weight: normal;
+  margin: 5px 0;
+}
+
+h3{
+  font-size: 23px;
+  line-height: 24px;
+  font-weight: normal;
+  margin: 5px 0;
+}
+
+
+a {
+  color: #40b6e1;
+  text-decoration: none; }
+  a:hover {
+    color: #4cc3f1;
+    text-decoration: underline; }
+  a:visited {
+    color: #7692cb; }
+  a.tdn {
+    text-decoration: none; }
+    a.tdn:hover {
+      text-decoration: underline; }
+  a.tdndashed {
+    text-decoration: none;
+    color: #4dbde5;
+    border-bottom: 1px dotted #4dbde5 }
+    a.tdndashed:hover {
+      text-decoration: none;
+      border-bottom: none; }
+  a.tdu {
+    text-decoration: underline; }
+    a.tdu:hover {
+      text-decoration: none; }
+  a.a_op{
+    opacity: 0.8;}
+    a.a_op:hover{
+    opacity: 1;}
+    a.a_op:active{
+    opacity: 0.9;}
+
+b, strong {
+  font-weight: bold; }
+
+.title_page {
+  font-size: 23px;
+  line-height: 23px;
+  font-weight: bold;
+  color: #e95143;
+  margin: 47px 0 30px 0; }
+
+.page_body {
+  font-size: 15px;
+  line-height: 20px;
+  color: #5f5f5f; }
+  .page_body .ls_useful_img, .page_body .ls_why_img {
+    margin-left: 10px;
+    margin-right: 30px;
+    float: left; }
+  .page_body.descr {
+    color: #b9b9b9;
+    font-size: 12px; }
+    .page_body.descr sup {
+      color: #ff0000; }
+  .page_body p {
+    margin-bottom: 15px; }
+  .page_body img {
+    margin-right: 10px;
+    margin-bottom: 10px; }
+  .page_body i {
+    color: #b9b9b9;
+    font-style: italic; }
+  .page_body b {
+    font-weight: bold; }
+  .page_body ul {
+    margin: 30px 0; }
+
+    .content ul li {
+      padding-left: 25px;
+      padding-bottom: 5px;
+      margin-left: 20px;
+      background: url(images/li_dot.png) 0 4px no-repeat;
+      line-height: 20px; }
+      .caroufredsel_wrapper ul li,
+      .ls_about ul li,
+      .youtube_panel_r ul li{
+        margin: 0;
+        padding: 0;
+        background: none;
+
+      }
+
+.content {
+  line-height: 18px; }
+  .content.mbn {
+    margin-bottom: 0; }
+
+.w960 {
+  width: 960px;
+  margin: 0 auto; }
+
+.btn.response {
+  display: block;
+  height: 36px;
+  width: 134px;
+  color: #fff;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  text-decoration: none;
+  line-height: 36px;
+  background: #3eb6e2;
+  text-align: center; }
+  .btn.response:hover {
+    background: #4cc3f1; }
+  .btn.response .icon.response {
+    display: inline-block;
+    width: 19px;
+    position: relative;
+    top: 4px;
+    margin-right: 4px;
+    height: 19px;
+    background: url("images/icon_response.png") center center no-repeat; }
+
+
+
+.form-element{
+  padding-top: 10px;
+}
+
+.form-button-wrapper{
+  background: none;
+}
+
+.test-form h2{
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.test-form textarea{
+  margin-bottom: 0 !important;
+}
+
+textarea {
+    font-size: 14px;
+    color: #686868;
+    font-weight: 100;
+    border: 1px solid #e2e2e2;
+    padding: 5px 8px;
+}
+
+input[type="text"] {
+    font-size: 14px;
+    color: #686868;
+    font-weight: 100;
+    width: 290px;
+    border: 1px solid #e2e2e2;
+    padding: 5px 8px;
+}
+
+
+button,
+input.next{
+      display: block;
+      height: 40px;
+      margin-top: 10px;
+      width: 120px;
+      color: #fff;
+      text-decoration: none;
+      line-height: 40px;
+      background: #3eb6e2;
+      border: none;
+      font-size: 14px;
+      border-radius: 4px;
+      -moz-border-radius: 4px;
+      -webkit-border-radius: 4px;
+      opacity: 0.8;
+      cursor: pointer;
+}
+input.next{
+  line-height: 30px;
+}
+button:hover,
+input.next:hover{
+  opacity: 1;
+}
+
+button:active,
+input.next:active{
+  opacity: 0.9;
+}
+
+button.prev{
+  background: none;
+  color: #3eb6e2;
+  float: left;
+}
+button.prev:hover{
+  text-decoration: underline;
+}
+button.prev.button-disabled{
+  background: none;
+  color: #898080;
+  text-decoration: none;
+}
+
+button.next,
+input.next{
+  float: right;
+  margin-right: 400px;
+}
+
+button.button-disabled{
+  cursor: default;
+  opacity: 0.8;
+  background: #898080;
+}
+
+.test-form .note{
+  display: none;
+}
+
+.header_top{
+  display: none;
+}
