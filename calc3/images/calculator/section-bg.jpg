@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<!-- saved from url=(0085)http://miridastroy.ru/wp-content/themes/mirida-theme/images/calculator/section-bg.jpg -->
+<html lang="ru-RU" class="js csstransforms localstorage no-firefox webkit" g_init="6790"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title></title>
+    <link rel="profile" href="http://gmpg.org/xfn/11">
+    <link rel="pingback" href="http://miridastroy.ru/xmlrpc.php">
+    <!-- Favicon -->
+        <link rel="icon" type="image/png" href="http://miridastroy.ru/favicon.png">
+    <!--[if IE]><link rel="SHORTCUT ICON" href="http://miridastroy.ru/favicon.ico"/><![endif]-->
+    <!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <!-- Fonts -->
+		<link href="./section-bg_files/css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" id="fancybox-css-css" href="./section-bg_files/jquery.fancybox.css" type="text/css" media="all">
+<link rel="stylesheet" id="reset-css-css" href="./section-bg_files/reset.css" type="text/css" media="all">
+<link rel="stylesheet" id="animate-css-css" href="./section-bg_files/animate.css" type="text/css" media="all">
+<link rel="stylesheet" id="theme-css-css" href="./section-bg_files/style.css" type="text/css" media="all">
+<script type="text/javascript" async="" src="./section-bg_files/watch.js"></script><script src="./section-bg_files/localstorage.js"></script><script type="text/javascript" src="./section-bg_files/jquery.js"></script>
+<script type="text/javascript" src="./section-bg_files/jquery-migrate.min.js"></script>
+<script type="text/javascript" src="./section-bg_files/sendmail.js"></script>
+<script type="text/javascript" src="./section-bg_files/smoothscroll.js"></script>
+<script type="text/javascript" src="./section-bg_files/modernizr.custom.30087.js"></script>
+<script type="text/javascript" src="./section-bg_files/jquery.countTo.js"></script>
+<script type="text/javascript" src="./section-bg_files/jquery.waypoints.min.js"></script>
+<script type="text/javascript" src="./section-bg_files/jquery.maskedinput.min.js"></script>
+<script type="text/javascript" src="./section-bg_files/jquery.fancybox.js"></script>
+<script type="text/javascript" src="./section-bg_files/animatescroll.js"></script>
+<script type="text/javascript" src="./section-bg_files/custom.js"></script>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://miridastroy.ru/wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 4.1.7">
+    <script>
+    	// Если локальное хранилище, загружаем скрипт
+	    Modernizr.load({
+	    	test: Modernizr.localstorage,
+	    	yep : 'http://miridastroy.ru/wp-content/themes/mirida-theme/assets/js/localstorage.js',
+	    	nope: '',
+	    	complete : function () {
+	    		StoreDataToLocalStorage('data', data, 0);
+	    	}
+	    });
+    	// Тест на лисичку
+    	Modernizr.addTest('firefox', function () {
+    		return !!navigator.userAgent.match(/firefox/i);
+    	});
+    	// Вебкит тест
+    	Modernizr.addTest('webkit', function () {
+    		return !!navigator.userAgent.match(/webkit/i);
+    	});
+    </script>
+
+    <script type="text/javascript">
+	    var __cs = __cs || [];
+	    __cs.push(["setAccount", "ePDGs9P9KgP11gmTyU1PBs1Gu9ygGKIV"]);
+	    __cs.push(["setHost", "//server.comagic.ru/comagic"]);
+    </script>
+    <script type="text/javascript" async="" src="./section-bg_files/cs.min.js"></script>
+
+    <meta content="Ремонт квартир" property="og:title">
+    <meta content="Ремонт квартир и офисов в Москве и Московской области" name="description">
+    <meta content="Ремонт квартир и офисов в Москве и Московской области" property="og:description">
+    <meta content="images/share.png" property="og:image">
+    <link href="http://miridastroy.ru/wp-content/themes/mirida-theme/images/share.png" rel="image_src">
+
+  <style type="text/css">.fancybox-margin{margin-right:0px;}</style><script src="./section-bg_files/consultant.min.js"></script></head>
+  <body>			<!-- Ничего не найдено -->
+							<!-- Yandex.Metrika counter -->
+		<script type="text/javascript">
+		(function (d, w, c) {
+		    (w[c] = w[c] || []).push(function() {
+		        try {
+		            w.yaCounter24012949 = new Ya.Metrika({id:24012949,
+		                    webvisor:true,
+		                    clickmap:true,
+		                    trackLinks:true,
+		                    accurateTrackBounce:true});
+		        } catch(e) { }
+		    });
+
+		    var n = d.getElementsByTagName("script")[0],
+		        s = d.createElement("script"),
+		        f = function () { n.parentNode.insertBefore(s, n); };
+		    s.type = "text/javascript";
+		    s.async = true;
+		    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+		    if (w.opera == "[object Opera]") {
+		        d.addEventListener("DOMContentLoaded", f, false);
+		    } else { f(); }
+		})(document, window, "yandex_metrika_callbacks");
+		</script>
+		<noscript>&lt;div&gt;&lt;img src="//mc.yandex.ru/watch/24012949" style="position:absolute; left:-9999px;" alt="" /&gt;&lt;/div&gt;</noscript>
+		<!-- /Yandex.Metrika counter -->
+		<script>
+			function goalz(value)
+			{
+				yaCounter24012949.reachGoal(value);
+			}
+			var siteLink = "http://miridastroy.ru/wp-content/themes/mirida-theme";
+			var home = "http://miridastroy.ru";
+			var plugin_dir = 'http://miridastroy.ru/wp-content/plugins';
+			var data = '';
+		</script>
+		
+            <script>
+                function calc(m) {
+                    var m0=parseFloat(m.meters.value);
+                    if (!jQuery(m.calcs).hasClass('in-progress')) {
+                        if (!m0) {
+                            m.meters.focus();
+                            return false;
+                        } else {
+                            jQuery(m.calcs).addClass('in-progress');
+                            // Вид ремонта
+                            if (m.remont.selectedIndex==0) m2=1500          // Косметический
+                            else if (m.remont.selectedIndex==1) m2=4000     // Капитальный
+                            else if (m.remont.selectedIndex==2) m2=7000     // Евроремонт
+                            // Количество санузлов
+                            if (m.sanuzel.selectedIndex==0) m5=m0*m2
+                            else if (m.sanuzel.selectedIndex==1 && m.remont.selectedIndex==0) m5=((m0-4)*m2)+30000
+                            else if (m.sanuzel.selectedIndex==1 && m.remont.selectedIndex==1) m5=((m0-4)*m2)+50000
+                            else if (m.sanuzel.selectedIndex==1 && m.remont.selectedIndex==2) m5=((m0-4)*m2)+80000
+                            else if (m.sanuzel.selectedIndex==2 && m.remont.selectedIndex==0) m5=((m0-4)*m2)+30000*2
+                            else if (m.sanuzel.selectedIndex==2 && m.remont.selectedIndex==1) m5=((m0-4)*m2)+50000*2
+                            else if (m.sanuzel.selectedIndex==2 && m.remont.selectedIndex==2) m5=((m0-4)*m2)+80000*2
+                            // Цена за квадрат
+                            var mKvadratCena = parseInt(m5/m0);
+                            var send_data = "<input type='hidden' value='" + m0 + "' name='kvadratov' placeholder='Квадратных метров' /><input type='hidden' value='" + m.stroenie.options[m.stroenie.selectedIndex].text + "' name='stroenie' placeholder='Вид строения' /><input type='hidden' value='" + m.remont.options[m.remont.selectedIndex].text + "' name='remont' placeholder='Вид ремонта' /><input type='hidden' value='" + m.komnata.options[m.komnata.selectedIndex].text + "' name='komnata' placeholder='Количество комнат' /><input type='hidden' value='" + m.potolok.options[m.potolok.selectedIndex].text + "' name='potolok' placeholder='Высота потолка' /><input type='hidden' value='" + m.sanuzel.options[m.sanuzel.selectedIndex].text + "' name='sanuzel' placeholder='Количество санузлов' /><input type='hidden' value='" + mKvadratCena + " руб.' name='cena_za_kv' placeholder='Цена за квадрат' /><input type='hidden' value='" + m5 + " руб.' name='sum' placeholder='Сумма' />";
+                            if (!jQuery('.calculator .result-container').hasClass('visible')) {
+                                jQuery('#sum').text(m5);
+                                jQuery('.calculator .result-container').animate({
+                                    right : 40,
+                                    opacity : 1
+                                },800, function(){
+                                    jQuery(this).addClass('visible');
+                                    jQuery(m.calcs).removeClass('in-progress');
+                                    jQuery('.calculator .result-container button').data('send-data', send_data);
+                                })
+                            } else {
+                                jQuery('.calculator .result-container').animate({
+                                    right : 0,
+                                    opacity : 0
+                                },400, function(){
+                                    jQuery(this).removeClass('visible');
+                                    jQuery('#sum').text(m5);
+                                    jQuery('.calculator .result-container').animate({
+                                        right : 40,
+                                        opacity : 1
+                                    },800, function(){
+                                        jQuery(this).addClass('visible');
+                                        jQuery(m.calcs).removeClass('in-progress');
+                                        jQuery('.calculator .result-container button').data('send-data', send_data);
+                                    })
+                                })
+                            }
+                        }
+                    }
+                }
+            </script>
+        	
+<iframe src="./section-bg_files/index.html" style="display: none;"></iframe></body></html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+<script src="js/jquery-1.8.3.min.js"></script>
+<link rel='stylesheet'href='reset.css' type='text/css' media='all' />
+<link rel='stylesheet'href='animate.css' type='text/css' media='all' />
+<link rel='stylesheet'href='style.css' type='text/css' media='all' />
+
+
+<style>
+.background {
+    width:400px;
+    height:60px;
+    position: relative;
+}
+
+#button {
+    position:absolute;
+    top:0px;
+    left:0;
+    background: transparent;
+    border: none !important;
+    width:170px;
+    color:white;
+}
+</style>
+
+ <style>
+        
+.calculator .wrapper {background: url(images/calculator/bg1.jpg) no-repeat center center;}
+
+</style> 
+
+<script>
+    
+$(function () {
+    $('#button').click(function () {
+        location.reload();
+    });
+});
+</script>
+
+</head>
+<body>
+			<div class="separator_line"></div>
+
+    
+			<section class="calculator" id="calculator">
+				<div class="box940">
+					<h2 class="text-center rdesign-animation animated flipInX" data-rdesign-animation="flipInX" data-rdesign-animation-delay="0">Калькулятор ремонта</h2>
+				</div>
+				<div class="wrapper">
+					<div class="box940">
+						<div class="form-container">
+							<form>
+								<p class="text-right">
+									<label for="area">площадь</label>
+									<input id="area" type="text" placeholder="Площадь, м.кв" name="meters">
+								</p>
+								<p class="text-right">
+									<label for="type">вид строения</label>
+									<select id="type" name="stroenie">
+										<option value="a1" selected>кирпично-монолитный</option>
+                                        <option value="a2">кирпичный</option>
+                                        <option value="a4">панельный</option>
+                                        <option value="a3">другой</option>
+									</select>
+								</p>
+								<p class="text-right">
+									<label for="type-of-repair">вид ремонта</label>
+									<select id="type-of-repair" name="remont">
+										<option value="b1" selected>Косметический</option>
+										<option value="b2">Капитальный</option>
+										<option value="b3">Евроремонт</option>
+									</select>
+								</p>
+								<p class="text-right">
+									<label for="number-of-rooms">количество комнат</label>
+									<select id="number-of-rooms" name="komnata">
+										<option value="c1" selected>1</option>
+										<option value="c2">2</option>
+										<option value="c3">3</option>
+										<option value="c4">4</option>
+										<option value="c5">5</option>
+									</select>
+								</p>
+								<p class="text-right">
+									<label for="ceiling-height">высота потолка</label>
+									<select id="ceiling-height" name="potolok">
+										<option value="d1" selected>2,5 м</option>
+										<option value="d2">2,6 м</option>
+										<option value="d3">2,8 м</option>
+										<option value="d4">2,9 м</option>
+										<option value="d5">3 м</option>
+										<option value="d6">3,5 м</option>
+										<option value="d7">4 м</option>
+									</select>
+								</p>
+								<p class="text-right">
+									<label for="number-of-bathrooms">количество санузлов</label>
+									<select id="number-of-bathrooms" name="sanuzel">
+										<option value="e1" selected>Нет</option>
+										<option value="e2">1</option>
+										<option value="e3">2</option>
+									</select>
+								</p>
+								<input type="hidden" name="calcs" value="test">
+								<p><button onclick="calc(this.form)" type="button" class="calculartor-submit" title="Расчёт">Расчёт</button></p>
+							</form>
+						</div>
+						<div class="result-container">
+							<p class="price text-center"><b id="sum"></b> <span>руб.</span></p>
+							<p class="notes text-center">примерная стоимость работ</p>
+							<p class="text-center">
+								<button
+									data-send-data=""
+									data-goal="calculator_get_req"
+									data-title="Оформление заявки (калькулятор)"
+									data-label="Заказать консультацию"
+									data-form-title="Заказать консультацию"
+									data-wrapper-class="get-call-popup"
+									class="submit sendForm popup_form" title="Заказать консультацию">Заказать консультацию</button>
+							</p>
+							<div class="corner"></div>
+						</div>
+						<div class="clearfix"></div>
+					</div>
+				</div>
+			</section>
+            <div class="separator_line"></div>
+
+
+
+</body>
+
+<script>
+                function calc(m) {
+                    var m0=parseFloat(m.meters.value);
+                    if (!jQuery(m.calcs).hasClass('in-progress')) {
+                        if (!m0) {
+                            m.meters.focus();
+                            return false;
+                        } else {
+                            jQuery(m.calcs).addClass('in-progress');
+                            // Вид ремонта
+                            if (m.remont.selectedIndex==0) m2=1500          // Косметический
+                            else if (m.remont.selectedIndex==1) m2=4000     // Капитальный
+                            else if (m.remont.selectedIndex==2) m2=7000     // Евроремонт
+                            // Количество санузлов
+                            if (m.sanuzel.selectedIndex==0) m5=m0*m2
+                            else if (m.sanuzel.selectedIndex==1 && m.remont.selectedIndex==0) m5=((m0-4)*m2)+30000
+                            else if (m.sanuzel.selectedIndex==1 && m.remont.selectedIndex==1) m5=((m0-4)*m2)+50000
+                            else if (m.sanuzel.selectedIndex==1 && m.remont.selectedIndex==2) m5=((m0-4)*m2)+80000
+                            else if (m.sanuzel.selectedIndex==2 && m.remont.selectedIndex==0) m5=((m0-4)*m2)+30000*2
+                            else if (m.sanuzel.selectedIndex==2 && m.remont.selectedIndex==1) m5=((m0-4)*m2)+50000*2
+                            else if (m.sanuzel.selectedIndex==2 && m.remont.selectedIndex==2) m5=((m0-4)*m2)+80000*2
+                            // Цена за квадрат
+                            var mKvadratCena = parseInt(m5/m0);
+                            var send_data = "<input type='hidden' value='" + m0 + "' name='kvadratov' placeholder='Квадратных метров' /><input type='hidden' value='" + m.stroenie.options[m.stroenie.selectedIndex].text + "' name='stroenie' placeholder='Вид строения' /><input type='hidden' value='" + m.remont.options[m.remont.selectedIndex].text + "' name='remont' placeholder='Вид ремонта' /><input type='hidden' value='" + m.komnata.options[m.komnata.selectedIndex].text + "' name='komnata' placeholder='Количество комнат' /><input type='hidden' value='" + m.potolok.options[m.potolok.selectedIndex].text + "' name='potolok' placeholder='Высота потолка' /><input type='hidden' value='" + m.sanuzel.options[m.sanuzel.selectedIndex].text + "' name='sanuzel' placeholder='Количество санузлов' /><input type='hidden' value='" + mKvadratCena + " руб.' name='cena_za_kv' placeholder='Цена за квадрат' /><input type='hidden' value='" + m5 + " руб.' name='sum' placeholder='Сумма' />";
+                            if (!jQuery('.calculator .result-container').hasClass('visible')) {
+                                jQuery('#sum').text(m5);
+                                jQuery('.calculator .result-container').animate({
+                                    right : 40,
+                                    opacity : 1
+                                },800, function(){
+                                    jQuery(this).addClass('visible');
+                                    jQuery(m.calcs).removeClass('in-progress');
+                                    jQuery('.calculator .result-container button').data('send-data', send_data);
+                                })
+                            } else {
+                                jQuery('.calculator .result-container').animate({
+                                    right : 0,
+                                    opacity : 0
+                                },400, function(){
+                                    jQuery(this).removeClass('visible');
+                                    jQuery('#sum').text(m5);
+                                    jQuery('.calculator .result-container').animate({
+                                        right : 40,
+                                        opacity : 1
+                                    },800, function(){
+                                        jQuery(this).addClass('visible');
+                                        jQuery(m.calcs).removeClass('in-progress');
+                                        jQuery('.calculator .result-container button').data('send-data', send_data);
+                                    })
+                                })
+                            }
+                        }
+                    }
+                }
+            </script>
+</html>

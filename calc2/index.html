@@ -1,0 +1,278 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Project</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/calc2.js"></script>
+</head>
+<style>
+.title1 {
+    width: 300px;
+    padding: 5px;
+    text-align: right;
+    background: #bfe6f0;
+    vertical-align: top;
+    font-size: 12px;
+    color: #000;
+    border: 1px solid #FFF;
+}
+.vibor {
+    padding: 5px;
+}
+.cena {
+    background: #FFFBDA;
+    width: 120px;
+    padding: 5px;
+}
+</style>
+
+<body>
+    
+<h1>Калькулятор модульного здания</h1>
+<p>Обращаем Ваше внимание, что цены рассчитанные калькулятором усредненные, представлены для ознакомления и не являются публичной офертой.</p> 	
+
+<table>
+	<tbody>
+<!-- Площадь -->
+		<tr>
+			<td class="title1">Общая площадь здания (m2)</td>
+			<td class="vibor">
+				<select onchange="calc2()" id="type_obpl">
+					<option value="0" selected>Выбрать</option>
+					<option value="2">28м2</option>
+					<option value="3">43м2</option>
+					<option value="4">57м2</option>
+					<option value="5">72м2</option>
+					<option value="6">86м2</option>
+					<option value="7">100м2</option>
+					<option value="8">115м2</option>
+					<option value="9">129м2</option>
+					<option value="10">144м2</option>
+					<option value="11">158м2</option>
+					<option value="12">172м2</option>
+					<option value="13">187м2</option>
+					<option value="14">201м2</option>
+					<option value="15">216м2</option>
+					<option value="16">230м2</option>
+					<option value="17">244м2</option>
+					<option value="18">259м2</option>
+					<option value="19">273м2</option>
+					<option value="20">288м2</option>
+					<option value="21">302м2</option>
+				</select>
+			</td>
+		</tr>
+<!-- Монтаж -->
+		<tr>
+			<td class="title1">Монтаж модульного здания</td>
+			<td class="vibor"><input type="checkbox" onchange="calc2()" value="1.10" id="type_mont" /> Требуется</td>
+		</tr>
+<!-- Крыша -->
+		<tr>
+			<td class="title1">Крыша двухскатная с выносом</td>
+			<td class="vibor"><input type="checkbox" onchange="calc2()" value="24600" id="type_kr" /> Требуется</td>
+		</tr>
+<!-- Внутренняя отделка -->
+		<tr>
+			<td class="title1">Внутренняя отделка</td>
+			<td class="vibor">
+				<select onchange="calc2()" id="type_vnot">
+					<option value="0" selected>ДВП (оргалит) 3,2 мм</option>
+					<option value="9200">Вагонка деревянная класса С</option>
+					<option value="10350">Вагонка ПВХ</option>
+					<option value="12650">Панели МДФ</option>
+				</select>
+			</td>
+		</tr>	
+		
+<!-- Наружная отделка -->
+		<tr>
+			<td class="title1">Наружная отделка</td>
+			<td class="vibor">
+				<select onchange="calc2()" id="type_nrot">
+					<option value="0" selected>Оцинкованный профнастил С-8</option>
+					<option value="5500">Профнастил с цветным полимерным покрытием</option>
+				</select>
+			</td>
+		</tr>
+		
+<!-- Утеплитель -->
+		<tr>
+			<td class="title1">Утеплитель</td>
+			<td class="vibor">
+				<select onchange="calc2()" id="type_ytpl">
+					<option value="0" selected>Isover 50mm</option>
+					<option value="5500">Isover 100mm</option>
+				</select>
+			</td>
+		</tr>
+		
+<!-- Пол -->
+		<tr>
+			<td class="title1">Пол</td>
+			<td class="vibor">
+				<select onchange="calc2()" id="type_pol">
+					<option value="0" selected>ДСП 16мм</option>
+					<option value="4000">Линолеум</option>
+					<option value="10000">Ламинат</option>
+				</select>
+			</td>
+		</tr>
+		
+<!-- Окно -->
+		<tr>
+			<td class="title1">Окно</td>
+			<td class="vibor">
+				<select onchange="calc2()" id="type_okno">
+					<option value="0" selected>Деревянное</option>
+					<option value="4000">Ставни металл.</option>
+					<option value="3000">Окно ПВХ 500*500</option>
+					<option value="5500">Окно ПВХ 800*1000</option>
+				</select>
+			</td>
+		</tr>
+		<!-- ЭЛЕКТРИКА -->
+		<tr>
+			<td colspan="2"><h3>Электрика:</h3></td>
+		</tr>
+		<tr>
+			<td class="title1">Электрика</td>
+			<td class="vibor">
+				<select onchange="calc2()" id="type_electric">
+					<option value="0" selected>Выбрать</option>
+					<option value="4500">в кабель-канале</option>
+					<option value="6000">в кабель-канале на 6кВт</option>
+				</select>
+			</td>
+		</tr>
+<!-- электроконвектор 1,5 кВт -->
+		<tr>
+			<td class="title1">Электроконвектор 1,5 кВт</td>
+			<td class="vibor">
+				<input type="text" id="type_konvektor" maxlength="2" value="0" size="2" onchange="calc2()" /> Кол-во.
+			</td>
+		</tr>
+		<!-- Сантехника -->
+		<tr>
+			<td colspan="2"><h3>Сантехника:</h3></td>
+		</tr>
+<!-- Поддон душевой с перегородкой и смесителем -->
+		<tr>
+			<td class="title1">Поддон душевой с перегородкой и смесителем</td>
+			<td class="vibor">
+				<input type="text" id="type_poddon" maxlength="2" value="0" size="2" onchange="calc2()" /> Кол-во.
+			</td>
+		</tr>
+		
+<!-- унитаз -->
+		<tr>
+			<td class="title1">унитаз</td>
+			<td class="vibor">
+				<input type="text" id="type_ynitaz" maxlength="2" value="0" size="2" onchange="calc2()" /> Кол-во.
+			</td>
+		</tr>
+		
+<!-- раковина -->
+		<tr>
+			<td class="title1">раковина</td>
+			<td class="vibor">
+				<input type="text" id="type_rakovina" maxlength="2" value="0" size="2" onchange="calc2()" /> Кол-во.
+			</td>
+		</tr>
+		
+<!-- писсуар настенный -->
+		<tr>
+			<td class="title1">писсуар настенный</td>
+			<td class="vibor">
+				<input type="text" id="type_pisyar" maxlength="2" value="0" size="2" onchange="calc2()" /> Кол-во.
+			</td>
+		</tr>
+<!-- Бойлер 100л -->
+		<tr>
+			<td class="title1">Бойлер 100л</td>
+			<td class="vibor">
+				<input type="text" id="type_boler" maxlength="2" value="0" size="2" onchange="calc2()" /> Кол-во.
+			</td>
+		</tr>
+		
+<!-- Дополнительная комплектация -->
+		<tr>
+			<td colspan="2"><h3>Дополнительная комплектация:</h3></td>
+		</tr>
+<!-- Окно ПВХ однокамерное 800х1000 мм -->
+		<tr>
+			<td class="title1">Окно ПВХ однокамерное 800х1000 мм</td>
+			<td class="vibor">
+				<input type="text" id="type_oknopvx" maxlength="2" value="0" size="2" onchange="calc2()" /> Кол-во.
+			</td>
+		</tr>
+<!-- Металлические ставни на окна -->
+		<tr>
+			<td class="title1">Металлические ставни на окна</td>
+			<td class="vibor">
+				<input type="text" id="type_metvst" maxlength="2" value="0" size="2" onchange="calc2()" /> Кол-во.
+			</td>
+		</tr>
+		
+<!-- Дверь входная цельнометаллическая -->
+		<tr>
+			<td class="title1">Дверь входная цельнометаллическая</td>
+			<td class="vibor">
+				<input type="checkbox" onchange="calc2()" value="12000" id="type_dverv" /> Требуется <br />
+			</td>
+		</tr>
+<!-- Межкомнатная дверь МДФ -->
+		<tr>
+			<td class="title1">Межкомнатная дверь МДФ</td>
+			<td class="vibor">
+				<input type="text" id="type_dvermdf" maxlength="2" value="0" size="2" onchange="calc2()" /> Кол-во.
+			</td>
+		</tr>
+<!-- Металлическая кровать одноярусная -->
+		<tr>
+			<td class="title1">Металлическая кровать одноярусная</td>
+			<td class="vibor">
+				<input type="text" id="type_krovat1" maxlength="2" value="0" size="2" onchange="calc2()" /> Кол-во.
+			</td>
+		</tr>
+		
+<!-- Металлическая кровать двухярусная -->
+		<tr>
+			<td class="title1">Металлическая кровать двухярусная</td>
+			<td class="vibor">
+				<input type="text" id="type_krovat2" maxlength="2" value="0" size="2" onchange="calc2()" /> Кол-во.
+			</td>
+		</tr>
+		
+<!-- Дно металлическое 0,5 мм -->
+		<tr>
+			<td class="title1">Дно металлическое 0,5 мм</td>
+			<td class="vibor">
+				<input type="text" id="type_dno" maxlength="2" value="0" size="2" onchange="calc2()" /> Кол-во.
+			</td>
+		</tr>
+<!-- Лестница внутренняя -->
+		<tr>
+			<td class="title1">Лестница внутренняя</td>
+			<td class="vibor">
+				<input type="text" id="type_lesv" maxlength="2" value="0" size="2" onchange="calc2()" /> Кол-во.
+			</td>
+		</tr>
+<!-- Дно металлическое 0,5 мм -->
+		<tr>
+			<td class="title1">Лестница наружная</td>
+			<td class="vibor">
+				<input type="text" id="type_lesn" maxlength="2" value="0" size="2" onchange="calc2()" /> Кол-во.
+			</td>
+		</tr>
+<!-- Итог --> 
+		<tr>
+			<td style="background: #FFFBDA;" class="td_result">ИТОГО:</td>
+			<td class="cena"><span id="result">0</span> тенге.</td>
+		</tr>
+	</tbody>
+	</table>
+    
+</body>
+</html>

@@ -1,0 +1,1749 @@
+/*
+    Theme Name: Шаблон "Мирида"
+    Theme URI: http://site.ru/
+    Description: Шаблон Landing Page
+    Author: R-design Studio
+    Author URI: http://rdesign-studio.ru/
+    Version: 1.0
+*/
+
+/* ==========================================================================
+   Основные стили страницы
+   ========================================================================== */
+
+/*
+ *  Разделы:
+ *    Технические стили
+ *    Кнопки                            (папка: buttons)
+ *    Главный экран                     (папка: main-screen)
+ *    Навигация                         -
+ *    Почему мы                         (папка: why-we)
+ *    Акционная форма захвата 1         (папка: promotional-form-1)
+ *    Отремонтировано                   (папка: repaired)
+ *    Наши услуги                   		(папка: our-services)
+ *    Наши работы                       (папка: our-works)
+ *    Цены на ремонт                    (папка: prices)
+ *    Как мы работаем                   (папка: how-we-work)
+ *    Калькулятор ремонта               (папка: calculator)
+ *    Задать вопрос                     (папка: ask-a-question)
+ *    Подвал сайта                      (папка: footer)
+ *    Скрытые текстовые блоки           -
+ *    Всплывающее окно: отзыв           -
+ *    Всплывающее окно: заказ звонка    (папка: popup-forms)
+ *    Всплывающее окно: благодарность   -
+ *    Всплывающее окно: текст. блоки    -
+ *    Плавающее меню                    -
+ *    Кнопка наверх                     -
+ *  Шрифт страницы:
+ *    Roboto
+ *  Начертания:
+ *    Thin 100, Thin 100 Italic, Light 300, Light 300 Italic,
+ *    Normal 400, Normal 400 Italic, Medium 500, Medium 500 Italic,
+ *    Bold 700, Bold 700 Italic, Ultra-Bold 900, Ultra-Bold 900 Italic
+ */
+
+/* Технические стили
+   ========================================================================== */
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.33;
+    color: #000;
+}
+
+input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #878787;
+}
+
+ul {
+    list-style: none;
+}
+
+section {
+    min-width: 940px;
+}
+
+.box940 {
+    position: relative;
+    width: 940px;
+    min-width: 940px;
+    margin: 0 auto;
+}
+
+.box-center {
+    position: relative;
+    margin: 0 auto;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.separator_line {
+    min-width: 940px;
+    height: 20px;
+    background-color: #343633;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+form input::-webkit-input-placeholder {
+    opacity: 1;
+    color: #878787;
+}
+
+form input:-moz-placeholder {
+    opacity: 1;
+    color: #878787;
+}
+
+form input::-moz-placeholder {
+    opacity: 1;
+    color: #878787;
+}
+
+form input:-ms-input-placeholder {
+    opacity: 1;
+    color: #878787;
+}
+
+.rdesign-animation {
+    opacity: 0;
+}
+
+.rdesign-animation.animated {
+    opacity: 1;
+}
+
+/* Кнопки
+   ========================================================================== */
+
+.getCallButton {
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 54px;
+    padding-bottom: 11px;
+    background: url(images/buttons/get-call-button-bg.png) no-repeat center top;
+    text-shadow: 1px 1px 0 #fff57f;
+}
+
+.getCallButton:hover {
+    background-position: center bottom;
+}
+
+.sendForm {
+    font-size: 14px;
+    position: relative;
+    display: block;
+    width: 219px;
+    height: 54px;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+    color: #000;
+    background: url(images/promotional-form-1/button.png) no-repeat center top;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.sendForm:hover {
+    background-position: center bottom;
+}
+
+.calculartor-submit {
+    font-size: 18px;
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 54px;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+    color: #000;
+    background: url(images/buttons/calculator-submit-button.png) no-repeat center top;
+    text-shadow: 1px 1px 1px #fff57f;
+}
+
+.calculartor-submit:hover {
+    background-position: center bottom;
+}
+
+/* Главный экран
+   ========================================================================== */
+
+body > .header {
+    min-height: 581px;
+}
+
+body > .header .slider.layer-1 {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    min-width: 940px;
+    height: 581px;
+    background: url(images/main-screen/slider/slide-1-normal.jpg) no-repeat top center;
+    /*background-attachment: fixed*/
+}
+
+body > .header .slider.layer-2 {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    min-width: 940px;
+    height: 581px;
+    background: url(images/main-screen/slider/slide-2-sketch.jpg) no-repeat top center;
+    /*background-attachment: fixed;*/
+}
+
+body > .header .top-part {
+    position: relative;
+    min-height: 134px;
+    margin: 0 auto;
+    background: url(images/main-screen/top-part-shadow.png) no-repeat center center;
+}
+
+body > .header .top-part .container {
+    height: 80px;
+    border-bottom: 4px solid #8cc8ff;
+    background: #fff;
+}
+
+body > .header .top-part .container .box.description {
+    position: relative;
+}
+
+body > .header .top-part .container .box.description a {
+    float: left;
+    margin-top: 13px;
+    margin-left: 13px;
+}
+
+body > .header .top-part .container .box.description .separator {
+    float: left;
+    width: 1px;
+    height: 36px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color: #8cc8ff;
+}
+
+body > .header .top-part .container .box.description p {
+    font-size: 14px;
+    font-weight: 300;
+    float: left;
+    margin-top: 20px;
+}
+
+body > .header .top-part .container .box.phone {
+    position: absolute;
+    right: 0;
+    width: 237px;
+    height: 100px;
+    padding-top: 11px;
+    border-bottom: 4px solid #8cc8ff;
+    background: url(images/main-screen/top-part-phone-block-bg.png) no-repeat center center;
+}
+
+body > .header .top-part .container .box.phone p {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 8px;
+    text-align: center;
+    text-shadow: 1px 1px 0 #d5eaff;
+}
+
+body > .header .title-part {
+    margin-top: 88px;
+    text-align: center;
+    position: relative;
+}
+
+body > .header .title-part h1,
+body > .header .title-part .sub-title {
+    font-size: 32px;
+    display: inline-block;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    color: #fff;
+    background: rgba(0,0,0,.75);
+}
+
+body > .header .title-part .sub-title {
+    font-size: 30px;
+    padding: 15px 20px;
+}
+
+.title-part .corner {
+    display: inline-block;
+    width: 213px;
+    height: 57px;
+    position: relative;
+    background: url(images/main-screen/title-part-corner.png) no-repeat center center;
+}
+
+/* Навигация
+   ========================================================================== */
+
+body > nav {
+    position: relative;
+    min-width: 940px;
+    height: 40px;
+    background: #343633;
+}
+
+body > nav .container {
+    position: relative;
+    height: 40px;
+    text-align: center;
+}
+
+body > nav ul {
+    position: relative;
+    display: inline-block;
+}
+
+body > nav li {
+    float: left;
+}
+
+body > nav a {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 40px;
+    display: block;
+    height: 40px;
+    padding: 0 20px;
+    -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+         -o-transition: all .5s ease;
+            transition: all .5s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+body > nav a:hover {
+    background: #272727;
+}
+
+/* Почему Мы
+   ========================================================================== */
+
+.why-we {
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.why-we h2 {
+    font-size: 30px;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.why-we .container {
+    position: relative;
+    padding-top: 40px;
+}
+
+.why-we .container .box {
+    position: relative;
+    float: left;
+    width: 150px;
+    margin: 0 23px;
+}
+
+.why-we .container .box.first {
+    margin-left: 0;
+}
+
+.why-we .container .box.last {
+    margin-right: 0;
+}
+
+.why-we .container .box .icon-container {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    background: url(images/why-we/icon-bg.png) no-repeat center center;
+}
+
+.why-we .container .box .icon-container img {
+    margin-top: 38px;
+}
+
+.why-we .container .box p {
+    font-size: 18px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+/* Акционная форма захвата 1
+   ========================================================================== */
+
+.promotional-form-1 {
+    height: 355px;
+    padding: 40px 0;
+}
+
+.promotional-form-1 .box-action {
+    position: absolute;
+    top: 70px;
+    right: 400px;
+    width: 350px;
+    height: 295px;
+    background: url(images/promotional-form-1/action-box-bg.png) no-repeat center center;
+}
+
+.promotional-form-1 .box-action .box-body {
+    position: relative;
+    min-height: 118px;
+    padding: 20px 30px 0px 30px;
+}
+
+.promotional-form-1 .box-action .box-body .title {
+    font-size: 32px;
+    font-weight: bold;
+    color: #f2ce24;
+    height: 126px;
+    overflow: hidden;
+}
+
+.promotional-form-1 .box-action .description {
+    font-size: 18px;
+    color: #000;
+    height: 69px;
+    overflow: hidden;
+    margin-top: 8px;
+}
+
+.promotional-form-1 .box-action .box-timer {
+    position: relative;
+    width: 95%;
+    height: 75px;
+    min-height: 55px;
+    margin-left: 6px;
+    padding: 0;
+    text-align: center;
+}
+
+.promotional-form-1 .box-action .box-timer .msg {
+    font-size: 24px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translate(0, -50%);
+       -moz-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 4px #0ea6b5;
+}
+
+.promotional-form-1 .box-action .box-timer .digits {
+    display: inline-block;
+}
+
+.promotional-form-1 .box-action .box-timer .digits > div {
+    position: relative;
+    float: left;
+    margin-right: 10px;
+    padding-left: 15px;
+    background: url(images/promotional-form-1/digits-separator.png) no-repeat left 18px;
+}
+
+.promotional-form-1 .box-action .box-timer .digits > div:first-child {
+    background: none;
+}
+
+.promotional-form-1 .box-action .box-timer .digits > div > div {
+    font-size: 48px;
+    font-weight: 900;
+    float: left;
+    color: #fff;
+    text-shadow: 0 0 4px #0ea6b5;
+}
+
+.promotional-form-1 .box-action .box-timer .digits .text {
+    font-size: 10px;
+    font-weight: 300;
+    position: relative;
+    top: -10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.promotional-form-1 .box-action .box-footer {
+    position: relative;
+    padding: 8px 30px 8px 24px;
+}
+
+.promotional-form-1 .box-action .box-footer p {
+    font-size: 12px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.promotional-form-1 form {
+    position: absolute;
+    right: 20px;
+    width: 224px;
+    height: 310px;
+    padding: 25px 40px;
+    background: url(images/promotional-form-1/form-bg.png) no-repeat center center;
+}
+
+.promotional-form-1 form .titles {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.promotional-form-1 form .titles .main-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px #d4b10c;
+}
+
+.promotional-form-1 form .titles .sub-title {
+    font-size: 18px;
+    text-shadow: 1px 1px 3px #d4b10c;
+}
+
+.promotional-form-1 form input {
+    font-size: 18px;
+    line-height: 40px;
+    width: 165px;
+    height: 40px;
+    margin: 5px 0;
+    padding-right: 15px;
+    padding-left: 44px;
+    background: url(images/promotional-form-1/input-sprites.png) no-repeat left center #fff;
+}
+
+.promotional-form-1 form input[name=name] {
+    background-position: left top;
+}
+
+.promotional-form-1 form input[name=phone] {
+    background-position: left bottom;
+}
+
+.promotional-form-1 form button {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.promotional-form-1 form .small {
+    text-align: center;
+}
+
+.promotional-form-1 form .small a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 1px 1px 3px #d4b10c;
+}
+
+.promotional-form-1 form .small a:before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+    margin-right: 4px;
+    background: url(images/promotional-form-1/lock.png);
+}
+
+.promotional-form-1 form .small a:hover {
+    text-decoration: underline;
+}
+
+/* Отремонтировано
+   ========================================================================== */
+
+.repaired {
+    position: relative;
+    padding: 40px 0 50px 0;
+    background: url(images/repaired/section-bg.jpg) no-repeat center center;
+    overflow: hidden;
+}
+
+.repaired h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.repaired .boxes-container {
+    position: relative;
+}
+
+.repaired .boxes-container .box {
+    position: relative;
+    float: left;
+    width: 211px;
+    height: 211px;
+    margin: 0 10px;
+    background: url(images/repaired/circle.png) no-repeat center center;
+}
+
+.repaired .boxes-container .wrapper {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translate(0, -50%);
+       -moz-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+}
+
+.repaired .boxes-container .number {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1;
+    color: #f0cc22;
+}
+
+.repaired .boxes-container .number + p {
+    font-size: 30px;
+    font-weight: 300;
+}
+
+/* Наши услуги
+   ========================================================================== */
+
+.our-services {
+    padding: 40px 0;
+    overflow: hidden;
+}
+
+.our-services h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.our-services .main-container {
+    position: relative;
+    width: 100%;
+    height: 347px;
+    background: url(images/our-services/main-container-bg.png) no-repeat center center;
+}
+
+.our-services .main-container .photo-container {
+    position: relative;
+    height: 326px;
+    display: none;
+}
+
+.our-services .main-container .photo-container:first-child
+{
+	display: block;
+}
+
+.our-services .main-container .photo-container .hover {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 85px;
+    background: url(images/our-services/main-container-text-container-bg.png) no-repeat right center;
+}
+
+.our-services .main-container .photo-container .hover .vertical {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translate(0, -50%);
+       -moz-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+}
+
+.our-services .main-container .photo-container .hover p {
+    font-size: 18px;
+    padding: 10px 30px;
+    padding-left: 370px;
+    padding-right: 60px;
+}
+
+.our-services .main-container .photo-container img {
+    position: absolute;
+    right: 0;
+}
+
+.our-services .main-container .nav-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 358px;
+    height: 326px;
+    background: url(images/our-services/main-container-nav-bg.png) no-repeat center center;
+}
+
+.our-services .main-container .nav-container a {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 51px;
+    display: block;
+    width: 258px;
+    height: 51px;
+    padding-right: 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #000;
+}
+
+.our-services .main-container .nav-container a:hover,
+.our-services .main-container .nav-container a.active {
+    color: #fff;
+    background: url(images/our-services/main-container-link-hover.png) no-repeat center left;
+    text-shadow: 2px 2px 4px #d4b10c;
+}
+
+.our-services .main-container .nav-container .link-2 {
+    margin-left: 18px;
+}
+
+.our-services .main-container .nav-container .link-3 {
+    margin-left: 37px;
+}
+
+.our-services .main-container .nav-container .link-4 {
+    margin-left: 56px;
+}
+
+.our-services .main-container .nav-container .link-5 {
+    margin-left: 75px;
+}
+
+.our-services .main-container .nav-container .link-6 {
+    margin-left: 94px;
+}
+
+/* Наши работы
+   ========================================================================== */
+
+.our-works {
+    padding: 40px 0;
+    background: url(images/our-works/section-bg.jpg) no-repeat center top #dcefff;
+}
+
+.our-works h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.our-works .main-container {
+    position: relative;
+}
+
+.our-works .main-container .nav-container {
+    float: left;
+    width: 220px;
+    background: #f0cc22;
+}
+
+.our-works .main-container .nav-container a {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+         -o-transition: all .5s ease;
+            transition: all .5s ease;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 4px #d4b10c;
+}
+
+.our-works .main-container .nav-container a:hover,
+.our-works .main-container .nav-container a.active {
+    color: #000;
+    background: #fff;
+    text-shadow: none;
+}
+
+.our-works .main-container .content-container {
+    float: left;
+    width: 700px;
+    padding: 10px;
+    background: #fff;
+    min-height: 1143px;
+}
+
+.our-works .main-container .content-container .section {
+    display: none;
+}
+
+.our-works .main-container .content-container .section:first-child {
+    display: block;
+}
+
+.our-works .main-container .content-container .section .wrapper-container {
+	display: none;
+}
+
+.our-works .main-container .content-container .section .wrapper-container:first-child {
+	display: block;
+}
+
+.our-works .main-container .content-container .img-half-width,
+.our-works .main-container .content-container .img-full-width {
+    position: relative;
+    float: left;
+    margin: 10px;
+}
+
+.our-works .main-container .content-container .img-half-width {
+    float: left;
+}
+
+.our-works .main-container .content-container img {
+    display: block;
+}
+
+.our-works .main-container .content-container .img-half-width .zoom-icon,
+.our-works .main-container .content-container .img-full-width .zoom-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 66px;
+    height: 66px;
+    margin-top: -33px;
+    margin-left: -33px;
+    -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+         -o-transition: all .5s ease;
+            transition: all .5s ease;
+    opacity: 0;
+    background: url(images/our-works/zoom-hover.png) no-repeat center center;
+}
+
+.our-works .main-container .content-container .img-half-width > a:hover .zoom-icon,
+.our-works .main-container .content-container .img-full-width > a:hover .zoom-icon {
+    top: 50%;
+    margin-top: -33px;
+    opacity: 1;
+}
+
+.our-works .main-container .content-container img {
+    -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+         -o-transition: all .5s ease;
+            transition: all .5s ease;
+}
+
+.our-works .main-container .content-container .img-half-width > a:hover img,
+.our-works .main-container .content-container .img-full-width > a:hover img {
+    opacity: .5;
+}
+
+.our-works .main-container .content-container .section .hidden-review {
+	display: none;
+}
+
+.our-works .main-container .content-container .section .see-review {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 40px;
+    padding-left: 29px;
+    background: url(images/our-works/review-corner-bg.png) no-repeat left center;
+}
+
+.our-works .main-container .content-container .section .see-review .rev-wrapper {
+    height: 40px;
+    padding-right: 20px;
+    padding-left: 10px;
+    background: url(images/our-works/rev-bg.png) repeat;
+}
+
+.our-works .main-container .content-container .section .see-review a {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 40px;
+    display: block;
+    height: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.our-works .main-container .content-container .section .see-review a:hover {
+    text-decoration: underline;
+}
+
+.our-works .main-container .content-container .get-more-container a {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    margin: 10px -10px -10px -10px;
+    padding: 20px 20px;
+    -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+         -o-transition: all .5s ease;
+            transition: all .5s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    background: #40cd1f;
+    text-shadow: 2px 2px 4px #2bc108;
+}
+
+.our-works .main-container .content-container .get-more-container a:hover {
+    background: #31dd15;
+}
+
+.our-works .main-container .content-container .get-more-container a.not-active {
+    background: #d8d8d8;
+    text-shadow: 2px 2px 4px #c7c7c7;
+    cursor: default;
+}
+
+/* Цены на ремонт
+   ========================================================================== */
+
+.prices {
+    padding: 40px 0;
+}
+
+.prices h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.prices .main-container {
+    position: relative;
+}
+
+.prices.use-fade .fade {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 58px;
+    background: url(images/prices/fade.png) repeat-x center center;
+}
+
+.prices .show-all {
+    display: none;
+}
+
+.prices .show-all {
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    padding: 20px 0;
+    margin: 0 0 0 auto;
+    width: 700px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    transition: all .5s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+.prices .show-all.closed {
+    background: #40cd1f;
+}
+
+.prices .show-all.closed:hover {
+    background: #31dd15;
+}
+
+.prices .show-all.opened {
+    background: #d8d8d8;
+    text-shadow: 2px 2px 4px #c7c7c7;
+}
+
+.prices .box {
+    position: relative;
+    float: left;
+    width: 220px;
+    margin: 0 10px;
+}
+
+.prices .box.labels {
+    margin-left: 0;
+}
+
+.prices .box.labels ul {
+    padding-top: 113px;
+}
+
+.prices .box.labels li {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 17px 0;
+    text-align: left;
+    color: #3b3b3b;
+}
+
+html.firefox .prices .box.labels li {
+    line-height: 1.29;
+}
+
+.prices .box.cosmetic,
+.prices .box.capital,
+.prices .box.renovation {
+    background: #2b8698;
+}
+
+.prices .box.renovation {
+    margin-right: 0;
+}
+
+.prices .box .title {
+    height: 28px;
+    padding-bottom: 10px;
+    background: #fff;
+}
+
+.prices .box .title p a {
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #257382;
+}
+
+.prices .box .title p a:hover {
+    text-decoration: underline;
+}
+
+.prices .box .title p:hover {
+    cursor: pointer;
+}
+
+/*.prices .box .title p:before {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    left: 50%;
+    top: -25px;
+    margin-left: -7px;
+    position: absolute;
+    background: url(images/prices/q.png) no-repeat center center;
+    content: "";
+}*/
+
+.prices .box .header {
+    position: relative;
+    height: 75px;
+    background: url(images/prices/box-header-bg.jpg) no-repeat center center;
+}
+
+.prices .box .header p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.1;
+    color: #fff;
+    text-shadow: 2px 2px 4px #0ea6b5;
+}
+
+.prices .box .header p .price {
+    font-size: 48px;
+    font-weight: 900;
+    position: relative;
+    top: 13px;
+}
+
+.prices .box .body {
+    padding: 10px;
+    background: url(images/prices/box-body-bg.jpg) no-repeat center top;
+}
+
+.prices .box .body li {
+    height: 35px;
+    background: url(images/prices/bullet-separator.png) no-repeat center top;
+}
+
+.prices .box .body li:first-child {
+    background: none;
+}
+
+.prices .box .body li.active span {
+    display: block;
+    height: 35px;
+    background: url(images/prices/bullet-active.png) no-repeat center center;
+}
+
+.prices .box .body li.not-active span {
+    display: block;
+    height: 35px;
+    background: url(images/prices/bullet-not-active.png) no-repeat center center;
+}
+
+/* Как мы работаем
+   ========================================================================== */
+
+.how-we-work {
+    padding: 40px 0;
+    background: url(images/how-we-work/section-bg.jpg) no-repeat  center center;
+    overflow: hidden;
+}
+
+.how-we-work h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.how-we-work .main-container {
+    position: relative;
+}
+
+.how-we-work .main-container .box {
+    position: relative;
+    float: left;
+    width: 130px;
+    margin: 0 13px;
+}
+
+.how-we-work .main-container .box .icon-box {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: url(images/how-we-work/icon-bg.png) no-repeat center center;
+}
+
+.how-we-work .main-container .box .icon-box p {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    -webkit-transform: translate(0, -50%);
+       -moz-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+}
+
+.how-we-work .main-container .box .corner {
+    position: absolute;
+    top: 50px;
+    left: -18px;
+    width: 10px;
+    height: 16px;
+    background: url(images/how-we-work/box-corner.png) no-repeat center center;
+}
+
+.how-we-work .main-container .box:first-child .corner {
+    display: none;
+}
+
+.how-we-work .main-container .box .text {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+/* Калькулятор ремонта
+   ========================================================================== */
+
+.calculator {
+    padding: 40px 0 0 0;
+}
+
+.calculator h2 {
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.calculator .wrapper {
+    background: url(images/calculator/section-bg.jpg) no-repeat center top;
+}
+
+.calculator .form-container {
+    position: relative;
+    float: left;
+    width: 490px;
+    padding: 20px 20px 0 20px;
+    background: #fff;
+}
+
+.calculator .form-container p {
+    margin-bottom: 20px;
+}
+
+.calculator .form-container label {
+    font-size: 15px;
+    cursor: pointer;
+    color: #3b3b3b;
+}
+
+.calculator .form-container input[type=text] {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32px;
+    width: 250px;
+    height: 32px;
+    margin-left: 20px;
+    padding: 0 14px;
+    -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+         -o-transition: all .5s ease;
+            transition: all .5s ease;
+    color: #747474;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+}
+
+.calculator .form-container input[type=text]:focus {
+    border-color: #ffd719;
+}
+
+.calculator .form-container select {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 32px;
+    width: 280px;
+    height: 32px;
+    margin-left: 20px;
+    padding: 0 0 0 14px;
+    -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+         -o-transition: all .5s ease;
+            transition: all .5s ease;
+    color: #747474;
+    border: 1px solid #d7d7d7;
+    border-radius: 3px;
+    outline: none;
+}
+
+.calculator .form-container select:focus {
+    border-color: #ffd719;
+}
+
+.calculator form button {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.calculator .result-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 290px;
+    padding: 20px;
+    background: #ffd719;
+    opacity: 0;
+}
+
+.calculator .result-container p {
+    color: #fff;
+    text-shadow: 2px 2px 2px #d4b10c;
+}
+
+.calculator .result-container p.price {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.calculator .result-container p.price span {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.calculator .result-container p.notes {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.calculator .result-container button {
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.calculator .result-container .corner {
+    position: absolute;
+    bottom: 28px;
+    left: -23px;
+    width: 23px;
+    height: 41px;
+    background: url(images/calculator/result-container-corner.png) no-repeat center center;
+}
+
+/* Задать вопрос
+   ========================================================================== */
+
+.ask-a-question {
+    padding: 40px 0 0 0;
+}
+
+.ask-a-question h2 {
+    font-size: 30px;
+    font-weight: 500;
+    width: 75%;
+    padding-bottom: 110px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: #373737;
+}
+
+.ask-a-question form {
+    position: relative;
+    width: 740px;
+    height: 80px;
+    margin: 0 auto;
+    padding-bottom: 5px;
+    background: #ffd719;
+    border-top: 33px solid rgb(255, 242, 0);
+}
+
+.ask-a-question form .wrapper {
+    padding: 20px;
+}
+
+.ask-a-question form input {
+    font-size: 18px;
+    line-height: 40px;
+    width: 165px;
+    height: 40px;
+    margin: 5px 0 0 15px;
+    padding-right: 15px;
+    padding-left: 44px;
+    background: url(images/promotional-form-1/input-sprites.png) no-repeat left center #fff;
+}
+
+.ask-a-question form input:first-child {
+    margin-left: 0;
+}
+
+.ask-a-question form input[name=name] {
+    background-position: left top;
+}
+
+.ask-a-question form input[name=phone] {
+    background-position: left bottom;
+}
+
+.ask-a-question form button {
+    float: right;
+    margin-top: 3px;
+}
+
+.ask-a-question .girl {
+    position: absolute;
+    top: 11px;
+    right: 120px;
+}
+
+.firefox .ask-a-question .girl {
+    top: 13px;
+}
+
+/* Подвал сайта
+   ========================================================================== */
+
+body > footer {
+    padding: 40px 0;
+}
+
+body > footer .box940 {
+    min-height: 100px;
+}
+
+body > footer .box.description {
+    position: absolute;
+    top: 58%;
+    left: 0;
+    width: 280px;
+    -webkit-transform: translate(0, -50%);
+       -moz-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+}
+
+body > footer .box.box-policy {
+    left: 50%;
+    margin-left: -100px;
+    width: 300px;
+    position: absolute;
+    top: 100%;
+    -webkit-transform: translate(0, -50%);
+           -moz-transform: translate(0, -50%);
+            -ms-transform: translate(0, -50%);
+                transform: translate(0, -50%);
+}
+
+body > footer .box.box-policy a {
+    font-size: 12px;
+    text-decoration: none;
+    color: gray;
+}
+
+body > footer .box.box-policy a:hover {
+    text-decoration: underline;
+}
+
+body > footer .box.description address {
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+}
+
+body > footer .box.description .years {
+    padding-top: 15px;
+    font-size: 12px;
+    color: gray;
+}
+
+body > footer .box.phone {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 280px;
+    -webkit-transform: translate(0, -50%);
+       -moz-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
+}
+
+body > footer .box.phone p:first-child {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+body > footer .box.phone button {
+    margin: 10px auto 0 auto;
+}
+
+body > footer .box.phone a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #458d96;
+}
+
+body > footer .box.phone a:hover {
+    text-decoration: underline;
+}
+
+/* Скрытые текстовые блоки
+   ========================================================================== */
+
+.hidden-text-blocks {
+    display: none;
+}
+
+/* Всплывающее окно: отзыв
+   ========================================================================== */
+
+.review-box .fancybox-skin {
+    border-radius: 0 !important;
+}
+
+.review-box .fancybox-skin .rev-user-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    border-radius: 75px;
+}
+
+.review-box .fancybox-skin .wrapper {
+    position: relative;
+    padding-left: 200px;
+}
+
+.review-box .fancybox-skin .rev-autor {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #f0cc22;
+}
+
+.review-box .fancybox-skin .rev-service {
+    font-size: 14px;
+    padding-bottom: 30px;
+    color: #373737;
+}
+
+.review-box .fancybox-skin .rev-text {
+    position: relative;
+    padding: 20px 35px;
+}
+
+.review-box .fancybox-skin .rev-text .quote-left {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 21px;
+    height: 15px;
+    background: url(images/our-works/quote-left-top.png) no-repeat center center;
+}
+
+.review-box .fancybox-skin .rev-text .quote-right {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 21px;
+    height: 15px;
+    background: url(images/our-works/quote-right-bottom.png) no-repeat center center;
+}
+
+.review-box .fancybox-skin .rev-text p {
+    font-size: 14px;
+    padding: 5px 0;
+    color: #373737;
+}
+
+/* Всплывающее окно: заказ звонка
+   ========================================================================== */
+
+.get-call-popup .fancybox-skin {
+    border-radius: 0 !important;
+    background: #ffd719;
+}
+.get-call-popup .fancybox-skin form {
+    position: relative;
+    padding: 20px;
+}
+
+.get-call-popup .fancybox-skin h2 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 2px 2px 4px #d4b10c;
+}
+
+.get-call-popup .fancybox-skin input {
+    font-size: 18px;
+    line-height: 40px;
+    display: block;
+    width: 160px;
+    height: 40px;
+    margin: 20px auto;
+    padding-right: 15px;
+    padding-left: 44px;
+    background: url(images/promotional-form-1/input-sprites.png) no-repeat left center #fff;
+}
+
+.get-call-popup .fancybox-skin input[name=name] {
+    background-position: left top;
+}
+
+.get-call-popup .fancybox-skin input[name=phone] {
+    background-position: left bottom;
+}
+
+.get-call-popup .fancybox-skin button {
+    font-size: 14px;
+    position: relative;
+    display: block;
+    width: 219px;
+    height: 54px;
+    margin: 0 auto;
+    padding-bottom: 13px;
+    text-transform: uppercase;
+    color: #000;
+    background: url(images/promotional-form-1/button.png) no-repeat center top;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.get-call-popup .fancybox-skin button:hover {
+    background-position: center bottom;
+}
+
+.get-call-popup .fancybox-skin small {
+    display: block;
+    padding: 0;
+    text-align: center;
+}
+
+.get-call-popup .fancybox-skin small a {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.get-call-popup .fancybox-skin small:before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+    margin-right: 4px;
+    background: url(images/promotional-form-1/lock.png);
+}
+
+.get-call-popup .fancybox-skin small a:hover {
+    text-decoration: underline;
+}
+
+.get-call-popup .fancybox-skin .fancybox-close {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    width: 40px;
+    height: 40px;
+    background: url(images/popup-forms/get-call-close-bg.png) no-repeat center center;
+}
+
+/* Всплывающее окно: благодарность
+   ========================================================================== */
+
+.thx-window .fancybox-skin {
+    border-radius: 0 !important;
+    background: #27c2d5;
+}
+
+.thx-window .fancybox-skin h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.thx-window .fancybox-skin p {
+    font-size: 16px;
+    margin: 5px 0;
+    text-align: center;
+    color: #fff;
+}
+
+/* Всплывающее окно: текст. блоки
+   ========================================================================== */
+
+.popup-text-box .fancybox-skin {
+    border-radius: 0 !important;
+}
+
+.popup-text-box .fancybox-skin h2 {
+    font-size: 24px;
+    margin: 5px 0;
+    text-align: left;
+    color: #000;
+}
+
+.popup-text-box .fancybox-skin p,
+.popup-text-box .fancybox-skin li {
+    font-size: 14px;
+    margin: 5px 0;
+    text-align: left;
+    color: #000;
+}
+
+/* Плавающее меню
+   ========================================================================== */
+
+.nav.clone {
+    position: fixed;
+    z-index: 110;
+    top: -50px;
+    right: 0;
+    left: 0;
+    height: 40px;
+    text-align: center;
+    opacity: 1;
+    background: #343633;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    -ms-filter: 'progid:DXImageTransform.Microsoft.Alpha(Opacity=100)';
+        filter: alpha(opacity=100);
+}
+
+.nav.clone .menu-menyu-1-container {
+    display: inline-block;
+}
+
+.nav.clone nav {
+    position: relative;
+    top: auto;
+    display: inline-block;
+    float: none;
+    margin: 0 auto;
+    border: none;
+}
+
+.nav.clone nav li {
+    float: left;
+}
+
+.nav.clone nav li a {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 40px;
+    display: block;
+    height: 40px;
+    padding: 0 20px;
+    -webkit-transition: all .5s ease;
+       -moz-transition: all .5s ease;
+         -o-transition: all .5s ease;
+            transition: all .5s ease;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.nav.clone nav li a:hover {
+    background: #272727;
+}
+
+/* Кнопка наверх
+   ========================================================================== */
+.to-top {
+    position: fixed;
+    right: 40px;
+    bottom: 40px;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    opacity: 0;
+    background: url(images/to-top.png) no-repeat center center;
+    z-index: 1;
+}
+
+.to-top.animated {
+    opacity: 1;
+}
