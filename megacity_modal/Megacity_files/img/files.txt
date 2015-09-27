@@ -1,0 +1,10 @@
+http://meggacity.ru/img/service-bg.jpg
+http://meggacity.ru/img/close.png
+http://meggacity.ru/img/loading.gif 
+http://meggacity.ru/img/prev.png 
+http://meggacity.ru/img/next.png 
+http://meggacity.ru/img/modal-corner.png
+http://meggacity.ru/img/modal-http://meggacity.ru/img.png
+http://meggacity.ru/img/select-bg.png
+http://meggacity.ru/img/line/price-line.png
+http://meggacity.ru/img/circle.png

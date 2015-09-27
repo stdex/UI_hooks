@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru" style="height: auto;"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>Megacity</title>
+<link rel="stylesheet" href="./Megacity_files/style.css" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="./Megacity_files/slick.css"/>
+<body>
+
+<section id="services"> <!-- Категории поиска -->
+<div class="modal-wrapper" style="display: none;">
+        <div class="modal-fade"></div>
+        <div class="modal-body"><form action="send-modal.php" method="post" class="modal-form">
+           <img src="./Megacity_files/close-modal.png" alt="k" class="close-img">
+            <span class="close"></span>
+            <div class="modal-steps-hidden">
+                <div class="modal-steps-wrapper modal-transition">
+               <div class="step-one">
+                    <p class="modal-title">Выберите желаемые параметры</p><p class="modal-title-descr rightside">Шаг 1 из 2</p>
+                    <div class="ProgressBarWrapper">
+                        <span class="BackProgressBar"></span>
+                        <div id="ProgressBarSample"></div>
+                    </div>
+                    <div class="modal-left">
+                        <p class="modal-left-title-progress">
+                            Экспресс поиск и подбор <br/> подходящих вариантов<br/> по вашим параметрам
+                        </p>
+                    </div>
+                    <div class="modal-right">
+                       <div class="input-group">
+                           <span class="label">Выберите район</span>
+                           <select name="district" id="district">
+                               <option disabled="" selected="">Район</option>
+                               <option value="Авиастроительный">Авиастроительный</option>
+                               <option value="Азино">Азино</option>
+                               <option value="Вахитовский">Вахитовский</option>
+                               <option value="Кировский">Кировский</option>
+                               <option value="Московский">Московский</option>
+                               <option value="Ново-Савиновский">Ново-Савиновский</option>
+                               <option value="Приволжский">Приволжский</option>
+                               <option value="Советский">Советский</option>
+                               <option value="Центр">Центр</option>
+                               <option value="Пригород">Пригород</option>
+                           </select>
+                       </div>
+                       <div class="input-group second">
+                           <span class="label">Количество комнат</span>
+                           <select name="rooms" id="rooms">
+                               <option value="" disabled="" selected="">Кол-во комнат</option>
+                               <option value="1 комнатная">1 комнатная</option>
+                               <option value="2 комнатная">2 комнатная</option>
+                               <option value="3 комнатная">3 комнатная</option>
+                               <option value="4 комнатная">4 комнатная</option>
+                               <option value="многокомнатная">многокомнатная</option>
+                           </select>
+                       </div>
+                       <div class="input-group">
+                           <span class="label">Выберите тип ремонта</span>
+                           <select name="type" id="type">
+                               <option disabled="" selected="">Тип</option>
+                               <option value="черновая">черновая</option>
+                               <option value="предчистовая">предчистовая</option>
+                               <option value="без ремонта">без ремонта</option>
+                               <option value="с ремонтом">с ремонтом</option>
+                               <option value="элитная отделка">элитная отделка</option>
+                           </select>
+                       </div>
+                       <input type="hidden" name="date" class="input-date">
+                       <input type="hidden" name="time" class="input-time">
+                       <input type="hidden" name="category" class="input-category" value="Новостройки">
+                       <input type="hidden" name="cost" class="input-cost" value="2000000">
+                       <input type="hidden" name="rcount" class="input-rcount">
+                        <a class="btn-modal">ДАЛЕЕ</a>
+                    </div>
+                    <div class="modal-slider-wrapper clearfix">
+                            <div class="modal-slider"></div>
+                            <p>Укажите стоимость</p>
+                    </div>
+                </div>
+                <div class="step-two">
+                <p class="modal-title">Общая информация</p><p class="modal-title-descr rightside">Шаг 2 из 2</p>
+                <div class="ProgressBarWrapper">
+                        <span class="BackProgressBar steptwo"></span>
+                        <div id="ProgressBarSample1"></div>
+                    </div>
+                <div class="modal-left">
+                    <p class="modal-left-title">
+                        Для вас в наличии 7 квартир<br>укажите данные и менеджер<br>предложит варианты<br>в течении 10 минут!
+                    </p>
+                    <img src="./Megacity_files/step-two-img.png" alt="almost all" class="step-two-img">
+                </div>
+                <div class="modal-right">
+                   <div class="input-group">
+                       <span class="label">Имя</span>
+                       <input type="text" name="name" placeholder="Ваше Имя" class="input-name">
+                   </div>
+                   <div class="input-group second">
+                       <span class="label">E-mail</span>
+                       <input type="text" name="email" placeholder="Ваш E-mail" class="input-email">
+                   </div>
+                   <div class="input-group">
+                       <span class="label">Телефон</span>
+                       <input type="text" name="phone" placeholder="Ваш Телефон*" class="input-phone" required="">
+                   </div>
+                   <div class="clearfix">
+                        <button href="" class="btn-modal" type="submit">Отправить</button>
+                        <a href="" class="btn-return">НАЗАД</a>
+                   </div>
+                    <p class="right-bottom">Ваши персональные данные в безопасности<br>ФЗ №152 "О защите персональных данных"</p>
+                </div>
+            </div>
+            </div>
+            </div>
+            </form>
+        </div>
+    </div>
+</section><!-- Категории поиска -->
+
+<script src="./Megacity_files/jquery.min.js"></script><!-- Скрипты -->
+<script src="./Megacity_files/jquery-ui.min.js"></script>
+<script src="./Megacity_files/jquery.smoothscroll.js"></script>
+<script src="./Megacity_files/jquery.bpopup.min.js"></script>
+<script src="./Megacity_files/script.js"></script><!-- Скрипты -->
+<link href="./Megacity_files/tinytools.progressbar.css" rel="stylesheet" />
+<script src="./Megacity_files/tinytools.progressbar.js"></script>
+
+
+</body>
+</html>

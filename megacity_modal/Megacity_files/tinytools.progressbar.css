@@ -1,0 +1,100 @@
+.ProgressBar {
+	font-size: 10px;
+	font-weight: bold;
+	padding: 0;
+	background-color: #fff;
+	overflow: hidden;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+	position: relative;
+	min-height: 1px;
+	border: 1px solid #999;
+}
+
+	.ProgressBar .Bar {
+		width: 0;
+		overflow: hidden;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+		position: absolute;
+		-moz-transition: width .5s;
+		-o-transition: width .5s;
+		-webkit-transition: width .5s;
+		transition: width .5s;
+
+		background: -moz-linear-gradient(left, #2DFC5E 50%, #95FDAD 100%); /* FF3.6+ */
+		background: -webkit-gradient(linear, left, right, color-stop(50%,#2DFC5E), color-stop(100%,#95FDAD)); /* Chrome,Safari4+ */
+		background: -webkit-linear-gradient(left, #2DFC5E 50%,#95FDAD 100%); /* Chrome10+,Safari5.1+ */
+		background: -o-linear-gradient(left, #2DFC5E 50%,#95FDAD 100%); /* Opera 11.10+ */
+		background: -ms-linear-gradient(left, #2DFC5E 50%,#95FDAD 100%); /* IE10+ */
+		background: linear-gradient(to right, #2DFC5E 50%,#95FDAD 100%); /* W3C */
+	}
+
+	.ProgressBar canvas {
+		position: absolute;
+		margin: 0;
+		top: 0;
+		left: 0;
+	}
+
+	.ProgressBar p {
+		position: absolute;
+		margin: 0;
+		padding: 0 10px;
+		top: 0;
+		left: 380px;
+		font-size: 13px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+    
+    .ProgressBarWrapper {
+        margin-top: 25px;
+        margin-bottom: -25px;
+    }
+    
+	.ProgressBarWrapper span {
+        font-weight: normal;
+		position: absolute;
+		margin: 0;
+		padding: 0 10px;
+		top: 72px;
+		left: 380px;
+		font-size: 13px;
+		-moz-box-sizing: border-box;
+		-webkit-box-sizing: border-box;
+		box-sizing: border-box;
+        z-index: 5;
+	}
+
+		.ProgressBar p.BackProgressBarPercent {
+            font: 'Roboto', sans-serif;
+            font-weight: bold;
+			color: #234253;
+		}
+
+		.ProgressBar p.ForeProgressBarPercent {
+            font: 'Roboto', sans-serif;
+            font-weight: bold;
+			color: #234253;
+		}
+        
+        .ProgressBarWrapper span.BackProgressBar {
+            font: 'Roboto', sans-serif;
+            font-weight: bold;
+			color: #234253;
+		}
+        
+        .ProgressBarWrapper span.steptwo {
+            margin-left: 900px;
+		}
+
+		.ProgressBarWrapper span.ForeProgressBar {
+            font: 'Roboto', sans-serif;
+            font-weight: bold;
+			color: #234253;
+		}
